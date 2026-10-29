@@ -1,0 +1,1001 @@
+patient_id,admission_date,discharge_date,diagnosis,department,cost,age,gender,severity,treatment,insurance,payment_type,bed_type,doctor
+1,2023-03-03,2023-03-06,Flu,Cardiology,5893,32,Female,High,Medication,No,Cash,General,Dr. Lee
+2,2023-10-07,2023-10-10,Fever,Emergency,4828,2,Female,Low,ICU Care,Yes,Insurance,General,Dr. Smith
+3,2023-11-07,2023-11-12,Covid,ICU,14036,36,Female,Low,Surgery,Yes,Insurance,General,Dr. John
+4,2023-02-04,2023-02-11,Fever,General,2114,23,Female,Medium,ICU Care,Yes,Insurance,ICU,Dr. Lee
+5,2023-03-02,2023-03-11,Flu,ICU,17177,69,Male,Medium,Surgery,No,Cash,Private,Dr. Kumar
+6,2023-08-25,2023-08-30,Infection,ICU,11073,67,Male,Medium,Medication,No,Cash,General,Dr. John
+7,2023-11-28,2023-12-04,Flu,General,1535,77,Male,Low,Medication,Yes,Insurance,ICU,Dr. John
+8,2023-02-16,2023-02-21,Covid,General,3093,64,Female,Medium,Surgery,No,Cash,Private,Dr. Lee
+9,2023-04-15,2023-04-22,Flu,ICU,10530,23,Male,Low,ICU Care,Yes,Insurance,Private,Dr. Lee
+10,2023-03-20,2023-03-29,Flu,General,2415,13,Male,High,ICU Care,Yes,Insurance,ICU,Dr. John
+11,2023-09-15,2023-09-24,Hypertension,ICU,11534,17,Male,Medium,ICU Care,Yes,Insurance,General,Dr. Kumar
+12,2023-07-05,2023-07-06,Fever,General,1519,69,Female,Medium,Surgery,Yes,Insurance,Private,Dr. Smith
+13,2023-01-30,2023-02-05,Hypertension,Surgery,23242,67,Male,Medium,ICU Care,Yes,Insurance,ICU,Dr. Kumar
+14,2023-05-07,2023-05-14,Flu,Emergency,1108,77,Female,High,Medication,No,Cash,Private,Dr. Lee
+15,2023-09-02,2023-09-09,Fever,ICU,19062,46,Male,High,Surgery,No,Cash,General,Dr. Lee
+16,2023-03-31,2023-04-06,Hypertension,Cardiology,5882,18,Male,Medium,Surgery,Yes,Insurance,Private,Dr. John
+17,2023-04-17,2023-04-27,Diabetes,ICU,17498,54,Female,Low,Surgery,Yes,Insurance,ICU,Dr. Smith
+18,2023-06-28,2023-07-06,Hypertension,General,1936,21,Male,Low,ICU Care,No,Cash,Private,Dr. Lee
+19,2023-06-08,2023-06-15,Flu,Cardiology,2963,6,Female,Medium,Medication,No,Cash,Private,Dr. Smith
+20,2023-03-14,2023-03-15,Diabetes,Emergency,3915,63,Female,Medium,Medication,Yes,Insurance,General,Dr. Kumar
+21,2023-08-29,2023-08-30,Flu,Emergency,3647,47,Male,High,Medication,Yes,Insurance,ICU,Dr. Lee
+22,2023-07-10,2023-07-11,Infection,Surgery,19383,31,Male,High,ICU Care,Yes,Insurance,General,Dr. Lee
+23,2023-02-09,2023-02-17,Covid,General,5736,90,Male,Low,Medication,Yes,Insurance,Private,Dr. Kumar
+24,2023-02-09,2023-02-14,Covid,General,5729,51,Female,Low,ICU Care,Yes,Insurance,Private,Dr. Kumar
+25,2023-12-07,2023-12-15,Infection,Emergency,4847,41,Male,High,Surgery,No,Cash,General,Dr. Kumar
+26,2023-03-23,2023-03-25,Hypertension,General,5429,75,Male,Low,ICU Care,No,Cash,ICU,Dr. John
+27,2023-08-31,2023-09-07,Hypertension,Emergency,3951,57,Male,Medium,Medication,No,Cash,ICU,Dr. John
+28,2023-07-01,2023-07-02,Fever,Surgery,22184,4,Male,Medium,Surgery,No,Cash,General,Dr. Lee
+29,2023-01-14,2023-01-22,Hypertension,Cardiology,3624,72,Female,Medium,Surgery,Yes,Insurance,Private,Dr. Kumar
+30,2023-10-13,2023-10-21,Diabetes,Surgery,18598,38,Male,High,Surgery,Yes,Insurance,Private,Dr. John
+31,2023-09-05,2023-09-11,Diabetes,Surgery,11526,73,Male,High,ICU Care,No,Cash,Private,Dr. Smith
+32,2023-09-27,2023-10-07,Flu,Surgery,14643,22,Female,Medium,Medication,Yes,Insurance,ICU,Dr. Smith
+33,2023-11-10,2023-11-19,Hypertension,Emergency,3070,49,Male,Low,Medication,No,Cash,Private,Dr. Smith
+34,2023-10-27,2023-11-02,Fever,Cardiology,5775,26,Male,Low,ICU Care,No,Cash,Private,Dr. Smith
+35,2023-08-30,2023-08-31,Covid,ICU,15711,83,Male,Low,Medication,No,Cash,Private,Dr. Smith
+36,2023-11-02,2023-11-04,Infection,Cardiology,3742,59,Female,High,Surgery,Yes,Insurance,Private,Dr. Kumar
+37,2023-07-20,2023-07-24,Hypertension,Cardiology,3791,80,Male,Medium,Medication,Yes,Insurance,Private,Dr. Smith
+38,2023-10-09,2023-10-12,Covid,Surgery,14705,39,Male,Medium,ICU Care,No,Cash,ICU,Dr. John
+39,2023-04-25,2023-05-03,Infection,Cardiology,1785,12,Male,High,Surgery,Yes,Insurance,Private,Dr. John
+40,2023-05-13,2023-05-20,Covid,Cardiology,1541,45,Female,High,ICU Care,No,Cash,ICU,Dr. Kumar
+41,2023-10-23,2023-10-27,Fever,ICU,14482,7,Male,Low,Surgery,Yes,Insurance,Private,Dr. John
+42,2023-01-25,2023-02-04,Covid,ICU,18123,6,Female,Medium,Medication,No,Cash,ICU,Dr. Lee
+43,2023-05-26,2023-06-03,Infection,ICU,18237,69,Female,High,Medication,Yes,Insurance,General,Dr. Lee
+44,2023-11-17,2023-11-23,Hypertension,Emergency,2182,50,Female,Medium,Surgery,No,Cash,ICU,Dr. John
+45,2023-04-15,2023-04-22,Flu,Emergency,2057,67,Male,Medium,Medication,Yes,Insurance,Private,Dr. John
+46,2023-02-02,2023-02-07,Hypertension,Emergency,1991,79,Female,Low,ICU Care,No,Cash,ICU,Dr. Kumar
+47,2023-02-23,2023-03-01,Flu,General,4696,53,Male,Low,ICU Care,Yes,Insurance,Private,Dr. John
+48,2023-12-06,2023-12-09,Hypertension,ICU,13735,82,Female,Low,Medication,Yes,Insurance,Private,Dr. Smith
+49,2023-05-29,2023-06-03,Hypertension,Emergency,4730,70,Female,Low,Medication,Yes,Insurance,Private,Dr. Smith
+50,2023-04-25,2023-05-05,Diabetes,General,5205,52,Male,High,ICU Care,No,Cash,General,Dr. Kumar
+51,2023-03-22,2023-03-31,Hypertension,Emergency,1192,88,Male,High,Medication,No,Cash,Private,Dr. John
+52,2023-09-16,2023-09-17,Infection,Emergency,5140,4,Male,High,Medication,Yes,Insurance,ICU,Dr. Kumar
+53,2023-06-02,2023-06-12,Infection,Cardiology,3791,84,Male,Medium,Surgery,No,Cash,ICU,Dr. Smith
+54,2023-02-18,2023-02-24,Hypertension,Surgery,14854,34,Female,Low,Surgery,Yes,Insurance,Private,Dr. Kumar
+55,2023-09-10,2023-09-13,Diabetes,Emergency,5989,73,Female,Low,Medication,Yes,Insurance,Private,Dr. John
+56,2023-05-01,2023-05-10,Fever,General,3747,78,Female,High,Surgery,No,Cash,Private,Dr. Smith
+57,2023-03-26,2023-04-05,Fever,General,3291,64,Female,Medium,Surgery,No,Cash,ICU,Dr. Smith
+58,2023-11-21,2023-11-23,Flu,Surgery,16554,85,Male,Medium,Medication,No,Cash,General,Dr. Smith
+59,2023-01-22,2023-01-31,Covid,General,2493,16,Female,Medium,Medication,Yes,Insurance,Private,Dr. John
+60,2023-09-28,2023-09-29,Hypertension,Cardiology,4355,42,Female,Medium,Surgery,No,Cash,ICU,Dr. Lee
+61,2023-08-21,2023-08-28,Infection,Emergency,2312,88,Male,Medium,Surgery,No,Cash,Private,Dr. John
+62,2023-11-06,2023-11-08,Infection,Cardiology,2648,36,Male,Medium,ICU Care,No,Cash,Private,Dr. John
+63,2023-11-20,2023-11-29,Diabetes,General,5606,80,Male,Low,ICU Care,No,Cash,ICU,Dr. Smith
+64,2023-08-05,2023-08-12,Diabetes,Cardiology,5869,46,Male,Low,ICU Care,Yes,Insurance,General,Dr. Smith
+65,2023-09-07,2023-09-09,Hypertension,General,2477,70,Female,Low,ICU Care,Yes,Insurance,General,Dr. John
+66,2023-09-10,2023-09-19,Diabetes,Cardiology,5263,21,Female,Medium,Medication,No,Cash,General,Dr. Lee
+67,2023-05-31,2023-06-05,Hypertension,Surgery,22845,73,Male,Medium,Medication,Yes,Insurance,General,Dr. John
+68,2023-08-20,2023-08-23,Infection,Emergency,5863,45,Male,High,Surgery,Yes,Insurance,ICU,Dr. Smith
+69,2023-01-28,2023-02-06,Infection,Emergency,4857,79,Male,Medium,Surgery,No,Cash,General,Dr. Smith
+70,2023-03-14,2023-03-21,Fever,Surgery,14107,89,Female,Low,Medication,Yes,Insurance,General,Dr. Lee
+71,2023-05-16,2023-05-19,Hypertension,General,1667,26,Female,High,Medication,Yes,Insurance,ICU,Dr. Smith
+72,2023-07-28,2023-07-30,Fever,Surgery,21206,38,Female,Medium,Medication,Yes,Insurance,General,Dr. Kumar
+73,2023-05-19,2023-05-29,Hypertension,Surgery,22887,48,Male,High,ICU Care,No,Cash,ICU,Dr. Lee
+74,2023-08-27,2023-09-06,Hypertension,Cardiology,4351,49,Female,Low,Surgery,Yes,Insurance,ICU,Dr. Smith
+75,2023-01-26,2023-01-28,Fever,ICU,9981,57,Female,Medium,ICU Care,No,Cash,Private,Dr. Kumar
+76,2023-10-30,2023-11-05,Flu,Emergency,4685,33,Female,Medium,Surgery,No,Cash,General,Dr. Kumar
+77,2023-10-10,2023-10-19,Infection,Surgery,18392,47,Male,High,Medication,No,Cash,Private,Dr. John
+78,2023-08-27,2023-09-05,Infection,ICU,17612,64,Male,High,Surgery,No,Cash,General,Dr. Smith
+79,2023-06-04,2023-06-05,Flu,ICU,17626,90,Female,High,Surgery,Yes,Insurance,General,Dr. John
+80,2023-08-12,2023-08-21,Infection,Emergency,1132,35,Female,Medium,Medication,Yes,Insurance,ICU,Dr. John
+81,2023-12-24,2023-12-29,Covid,ICU,19797,34,Female,Medium,ICU Care,No,Cash,ICU,Dr. Kumar
+82,2023-01-30,2023-02-08,Fever,Surgery,20838,2,Male,Low,ICU Care,Yes,Insurance,General,Dr. Lee
+83,2023-10-27,2023-11-01,Hypertension,General,4741,86,Female,High,Medication,No,Cash,General,Dr. John
+84,2023-05-17,2023-05-25,Infection,Cardiology,5974,35,Male,Low,Surgery,No,Cash,Private,Dr. Smith
+85,2023-03-22,2023-03-24,Hypertension,Surgery,18110,29,Female,Low,ICU Care,No,Cash,Private,Dr. Smith
+86,2023-05-31,2023-06-10,Infection,Cardiology,1952,49,Male,Low,Medication,No,Cash,Private,Dr. Smith
+87,2023-10-03,2023-10-05,Covid,General,5948,88,Male,Low,ICU Care,Yes,Insurance,Private,Dr. Kumar
+88,2023-05-29,2023-06-03,Infection,General,4439,9,Male,High,Medication,Yes,Insurance,General,Dr. Smith
+89,2023-01-08,2023-01-09,Flu,Surgery,21930,9,Male,Medium,Surgery,Yes,Insurance,ICU,Dr. Smith
+90,2023-06-14,2023-06-18,Flu,Cardiology,3302,34,Male,High,Surgery,Yes,Insurance,ICU,Dr. Kumar
+91,2023-04-14,2023-04-19,Diabetes,Cardiology,1571,67,Female,Medium,Surgery,Yes,Insurance,Private,Dr. John
+92,2023-04-21,2023-04-25,Covid,Cardiology,4238,45,Male,Low,Surgery,Yes,Insurance,Private,Dr. Kumar
+93,2023-04-15,2023-04-17,Fever,Emergency,3224,76,Male,Medium,ICU Care,No,Cash,General,Dr. Lee
+94,2023-02-01,2023-02-02,Hypertension,Emergency,5574,82,Male,Low,ICU Care,No,Cash,ICU,Dr. Kumar
+95,2023-02-09,2023-02-12,Hypertension,Emergency,3263,58,Female,Medium,ICU Care,No,Cash,ICU,Dr. Smith
+96,2023-10-07,2023-10-08,Infection,Surgery,15615,46,Male,Medium,Surgery,No,Cash,Private,Dr. Lee
+97,2023-06-03,2023-06-04,Covid,Surgery,13360,40,Female,Low,ICU Care,Yes,Insurance,General,Dr. John
+98,2023-05-22,2023-05-27,Fever,Surgery,15916,42,Female,Low,Medication,No,Cash,Private,Dr. Lee
+99,2023-03-16,2023-03-17,Fever,Emergency,5472,65,Female,Low,ICU Care,Yes,Insurance,ICU,Dr. Smith
+100,2023-04-27,2023-05-02,Fever,Surgery,15898,17,Female,High,Surgery,No,Cash,ICU,Dr. Lee
+101,2023-01-09,2023-01-14,Diabetes,Cardiology,4910,46,Male,High,ICU Care,Yes,Insurance,General,Dr. Kumar
+102,2023-11-15,2023-11-16,Infection,Emergency,2951,32,Male,Medium,Surgery,Yes,Insurance,Private,Dr. Kumar
+103,2023-10-21,2023-10-23,Flu,ICU,12046,50,Female,Medium,Medication,Yes,Insurance,Private,Dr. Smith
+104,2023-03-11,2023-03-12,Infection,Emergency,2736,71,Male,Medium,ICU Care,Yes,Insurance,ICU,Dr. Lee
+105,2023-11-06,2023-11-07,Infection,Cardiology,2007,9,Male,High,Surgery,Yes,Insurance,General,Dr. John
+106,2023-03-17,2023-03-24,Infection,General,3258,37,Male,Medium,ICU Care,Yes,Insurance,Private,Dr. Lee
+107,2023-10-16,2023-10-23,Infection,ICU,16759,33,Female,High,Medication,Yes,Insurance,ICU,Dr. Smith
+108,2024-01-01,2024-01-02,Covid,ICU,13087,46,Male,Medium,ICU Care,No,Cash,Private,Dr. Lee
+109,2023-11-29,2023-12-08,Hypertension,Surgery,16017,19,Female,High,Surgery,No,Cash,Private,Dr. Lee
+110,2023-07-03,2023-07-07,Hypertension,Cardiology,3559,23,Male,High,Surgery,Yes,Insurance,Private,Dr. Lee
+111,2023-03-05,2023-03-12,Fever,Emergency,4059,90,Male,High,Medication,Yes,Insurance,Private,Dr. John
+112,2023-03-25,2023-03-29,Fever,Cardiology,4331,12,Female,High,Medication,No,Cash,Private,Dr. Smith
+113,2023-04-22,2023-04-24,Hypertension,Cardiology,1321,60,Female,Low,Medication,Yes,Insurance,Private,Dr. Smith
+114,2023-02-09,2023-02-17,Hypertension,Cardiology,4820,79,Male,Low,Medication,No,Cash,Private,Dr. John
+115,2023-03-21,2023-03-31,Fever,Surgery,16753,43,Female,High,Medication,Yes,Insurance,General,Dr. Smith
+116,2023-05-08,2023-05-11,Diabetes,Cardiology,4267,27,Female,High,ICU Care,No,Cash,Private,Dr. Smith
+117,2023-04-22,2023-04-28,Fever,ICU,19833,82,Female,High,Surgery,No,Cash,ICU,Dr. Lee
+118,2023-06-11,2023-06-20,Diabetes,Emergency,2171,6,Female,Medium,Surgery,Yes,Insurance,ICU,Dr. Lee
+119,2023-09-21,2023-09-29,Covid,Cardiology,1393,30,Female,Medium,Surgery,No,Cash,ICU,Dr. Kumar
+120,2023-09-29,2023-10-06,Hypertension,General,5957,26,Female,High,ICU Care,Yes,Insurance,ICU,Dr. Smith
+121,2023-01-08,2023-01-15,Flu,Surgery,11891,32,Male,Low,Surgery,No,Cash,Private,Dr. Lee
+122,2023-02-20,2023-02-26,Fever,General,4360,20,Male,High,Medication,No,Cash,General,Dr. Lee
+123,2023-10-12,2023-10-13,Hypertension,Cardiology,5393,47,Male,High,Surgery,No,Cash,Private,Dr. John
+124,2023-03-18,2023-03-28,Fever,Surgery,21007,90,Male,Low,ICU Care,Yes,Insurance,General,Dr. Lee
+125,2023-12-06,2023-12-11,Hypertension,General,5399,50,Male,Low,ICU Care,Yes,Insurance,ICU,Dr. Lee
+126,2023-05-18,2023-05-27,Hypertension,ICU,17208,39,Male,Low,Medication,No,Cash,General,Dr. Kumar
+127,2023-09-10,2023-09-20,Hypertension,ICU,16881,9,Male,Low,Surgery,No,Cash,General,Dr. Kumar
+128,2023-09-12,2023-09-13,Covid,Cardiology,4514,10,Male,Medium,Surgery,No,Cash,ICU,Dr. John
+129,2023-06-06,2023-06-12,Fever,General,4970,63,Female,High,ICU Care,No,Cash,General,Dr. John
+130,2023-08-11,2023-08-15,Fever,ICU,12422,82,Male,Low,Surgery,Yes,Insurance,ICU,Dr. Lee
+131,2023-08-30,2023-09-07,Infection,Cardiology,2731,58,Male,High,Surgery,No,Cash,ICU,Dr. Smith
+132,2023-04-10,2023-04-12,Covid,ICU,16181,14,Male,High,Surgery,No,Cash,ICU,Dr. John
+133,2023-04-11,2023-04-13,Hypertension,General,1833,60,Female,High,ICU Care,Yes,Insurance,General,Dr. John
+134,2023-01-29,2023-02-05,Covid,Emergency,3996,53,Female,Low,Surgery,Yes,Insurance,General,Dr. Smith
+135,2023-06-20,2023-06-29,Flu,Surgery,21938,58,Female,Low,ICU Care,Yes,Insurance,General,Dr. Lee
+136,2023-12-07,2023-12-09,Flu,General,5460,35,Female,Low,ICU Care,Yes,Insurance,General,Dr. Lee
+137,2023-03-26,2023-04-05,Infection,ICU,19884,82,Male,High,ICU Care,Yes,Insurance,General,Dr. Kumar
+138,2023-02-13,2023-02-14,Fever,Cardiology,4233,17,Female,Medium,Surgery,Yes,Insurance,General,Dr. Smith
+139,2023-09-20,2023-09-28,Fever,Emergency,3477,38,Female,Low,Surgery,No,Cash,Private,Dr. Kumar
+140,2023-02-21,2023-02-22,Diabetes,Cardiology,3647,2,Male,High,ICU Care,No,Cash,ICU,Dr. John
+141,2023-11-10,2023-11-18,Diabetes,Surgery,18107,37,Female,Medium,ICU Care,No,Cash,ICU,Dr. John
+142,2023-08-08,2023-08-15,Diabetes,ICU,19502,78,Female,Medium,Surgery,Yes,Insurance,Private,Dr. John
+143,2023-07-17,2023-07-27,Flu,Emergency,1042,69,Male,Low,ICU Care,No,Cash,Private,Dr. John
+144,2023-07-01,2023-07-11,Fever,Emergency,5226,80,Male,High,ICU Care,Yes,Insurance,General,Dr. Kumar
+145,2023-05-22,2023-05-27,Covid,Cardiology,5008,72,Male,High,Medication,Yes,Insurance,Private,Dr. Kumar
+146,2023-03-24,2023-03-26,Fever,Cardiology,1288,49,Male,Medium,ICU Care,Yes,Insurance,Private,Dr. Lee
+147,2023-11-16,2023-11-20,Fever,Emergency,4755,67,Female,High,ICU Care,Yes,Insurance,General,Dr. Smith
+148,2023-10-05,2023-10-14,Covid,Surgery,20873,47,Male,Low,Surgery,Yes,Insurance,General,Dr. John
+149,2023-11-01,2023-11-03,Flu,Cardiology,4893,30,Male,High,Medication,No,Cash,General,Dr. Lee
+150,2023-12-06,2023-12-10,Flu,General,2397,11,Male,Medium,Medication,Yes,Insurance,Private,Dr. Smith
+151,2023-09-28,2023-10-01,Flu,General,5102,35,Female,Medium,ICU Care,No,Cash,Private,Dr. John
+152,2023-03-12,2023-03-16,Fever,Surgery,17863,34,Male,High,ICU Care,No,Cash,ICU,Dr. John
+153,2023-01-06,2023-01-09,Diabetes,Surgery,16316,56,Male,Medium,Surgery,Yes,Insurance,Private,Dr. Lee
+154,2023-02-16,2023-02-25,Covid,ICU,17005,28,Male,High,ICU Care,Yes,Insurance,Private,Dr. Smith
+155,2023-01-01,2023-01-10,Covid,ICU,9667,45,Male,High,ICU Care,Yes,Insurance,ICU,Dr. Kumar
+156,2023-08-23,2023-08-31,Hypertension,Cardiology,3720,88,Male,Medium,Surgery,No,Cash,ICU,Dr. Smith
+157,2023-09-23,2023-09-24,Infection,ICU,12040,29,Male,Low,Surgery,No,Cash,Private,Dr. Smith
+158,2023-06-27,2023-07-04,Fever,Cardiology,5679,47,Male,Low,Surgery,No,Cash,Private,Dr. John
+159,2023-02-07,2023-02-14,Covid,ICU,18176,84,Male,Medium,ICU Care,No,Cash,General,Dr. Lee
+160,2023-11-19,2023-11-25,Flu,Emergency,2085,7,Male,High,Surgery,No,Cash,Private,Dr. John
+161,2023-02-28,2023-03-02,Hypertension,General,2964,44,Female,High,Medication,No,Cash,ICU,Dr. Lee
+162,2023-01-10,2023-01-14,Covid,ICU,18908,38,Female,Low,Medication,No,Cash,Private,Dr. John
+163,2023-05-01,2023-05-08,Diabetes,Cardiology,5996,62,Male,High,Surgery,No,Cash,General,Dr. Kumar
+164,2023-11-18,2023-11-26,Fever,ICU,17014,88,Female,High,Medication,No,Cash,Private,Dr. Kumar
+165,2023-01-05,2023-01-10,Infection,Surgery,14744,68,Female,High,Surgery,Yes,Insurance,Private,Dr. Lee
+166,2023-11-19,2023-11-29,Flu,Surgery,20695,81,Female,Medium,Surgery,Yes,Insurance,ICU,Dr. John
+167,2023-03-15,2023-03-25,Hypertension,Cardiology,3972,65,Male,Medium,Medication,Yes,Insurance,Private,Dr. John
+168,2023-08-21,2023-08-25,Fever,ICU,8464,4,Female,Low,Surgery,Yes,Insurance,ICU,Dr. John
+169,2023-06-15,2023-06-24,Covid,ICU,15609,83,Female,Medium,ICU Care,No,Cash,ICU,Dr. Kumar
+170,2023-07-19,2023-07-21,Infection,Surgery,21463,81,Male,Medium,ICU Care,No,Cash,General,Dr. John
+171,2023-03-13,2023-03-22,Hypertension,Cardiology,1383,76,Female,High,Medication,Yes,Insurance,ICU,Dr. Lee
+172,2023-04-17,2023-04-25,Flu,ICU,15332,48,Male,High,Surgery,Yes,Insurance,General,Dr. Smith
+173,2023-08-03,2023-08-09,Diabetes,Surgery,12774,45,Male,Low,Medication,Yes,Insurance,ICU,Dr. John
+174,2023-08-05,2023-08-12,Diabetes,ICU,8259,9,Female,High,ICU Care,Yes,Insurance,General,Dr. Smith
+175,2023-01-30,2023-02-04,Infection,Emergency,3728,29,Male,Medium,Surgery,Yes,Insurance,General,Dr. Smith
+176,2023-06-03,2023-06-11,Covid,General,1053,7,Female,Low,ICU Care,Yes,Insurance,General,Dr. Lee
+177,2023-03-04,2023-03-12,Fever,Emergency,5348,19,Female,High,Medication,No,Cash,Private,Dr. Lee
+178,2023-12-10,2023-12-20,Hypertension,Cardiology,3028,30,Female,High,ICU Care,Yes,Insurance,Private,Dr. Kumar
+179,2023-06-03,2023-06-13,Diabetes,Emergency,1993,75,Female,Low,ICU Care,Yes,Insurance,ICU,Dr. Kumar
+180,2023-12-11,2023-12-19,Infection,Surgery,12181,77,Male,Medium,Surgery,No,Cash,General,Dr. John
+181,2023-08-31,2023-09-01,Covid,Cardiology,4606,23,Male,Low,Medication,No,Cash,General,Dr. John
+182,2023-07-09,2023-07-10,Covid,ICU,18458,40,Male,High,ICU Care,No,Cash,ICU,Dr. Lee
+183,2023-01-01,2023-01-07,Flu,Surgery,18820,67,Female,Medium,Surgery,Yes,Insurance,ICU,Dr. Lee
+184,2023-09-11,2023-09-19,Diabetes,Cardiology,4863,59,Female,High,Medication,No,Cash,General,Dr. Lee
+185,2023-07-10,2023-07-17,Infection,General,5836,78,Female,Low,Surgery,No,Cash,ICU,Dr. Kumar
+186,2023-10-20,2023-10-23,Diabetes,ICU,10755,83,Female,High,Medication,No,Cash,ICU,Dr. Smith
+187,2023-02-26,2023-03-05,Diabetes,General,5195,60,Female,Low,Medication,Yes,Insurance,General,Dr. Smith
+188,2023-12-29,2024-01-07,Infection,ICU,11123,57,Female,High,Medication,Yes,Insurance,ICU,Dr. Lee
+189,2023-12-20,2023-12-25,Covid,Cardiology,5217,50,Female,Low,Medication,Yes,Insurance,ICU,Dr. John
+190,2023-09-29,2023-10-05,Covid,Emergency,4749,66,Female,High,ICU Care,No,Cash,Private,Dr. John
+191,2023-01-24,2023-01-30,Fever,Surgery,10435,51,Male,Low,ICU Care,Yes,Insurance,General,Dr. Kumar
+192,2023-03-14,2023-03-22,Fever,ICU,14882,38,Male,High,Medication,No,Cash,Private,Dr. Kumar
+193,2023-02-01,2023-02-02,Hypertension,Surgery,21725,31,Male,High,Medication,No,Cash,ICU,Dr. Smith
+194,2023-08-27,2023-08-31,Infection,Emergency,1936,44,Female,High,ICU Care,Yes,Insurance,Private,Dr. John
+195,2023-12-18,2023-12-19,Covid,Cardiology,4180,77,Male,Medium,Medication,Yes,Insurance,Private,Dr. Lee
+196,2023-09-08,2023-09-09,Infection,Emergency,4060,13,Male,Low,Surgery,No,Cash,Private,Dr. John
+197,2023-06-04,2023-06-10,Fever,ICU,15133,58,Female,Low,Medication,Yes,Insurance,Private,Dr. John
+198,2023-02-24,2023-03-06,Covid,Emergency,5954,20,Female,Medium,ICU Care,No,Cash,General,Dr. Smith
+199,2023-09-22,2023-09-24,Flu,ICU,14204,69,Male,Low,Medication,Yes,Insurance,Private,Dr. Smith
+200,2023-08-19,2023-08-26,Hypertension,ICU,19910,81,Female,Low,ICU Care,Yes,Insurance,General,Dr. Kumar
+201,2023-03-17,2023-03-21,Diabetes,Surgery,18319,2,Female,High,Surgery,No,Cash,General,Dr. Smith
+202,2024-01-01,2024-01-02,Flu,ICU,14953,66,Female,Low,ICU Care,Yes,Insurance,ICU,Dr. Kumar
+203,2023-06-09,2023-06-10,Infection,ICU,14780,90,Male,Low,Surgery,Yes,Insurance,Private,Dr. John
+204,2023-11-07,2023-11-10,Fever,General,4926,25,Female,Low,Surgery,Yes,Insurance,General,Dr. Smith
+205,2023-12-07,2023-12-10,Hypertension,Surgery,13349,29,Female,Low,ICU Care,Yes,Insurance,ICU,Dr. Lee
+206,2023-10-06,2023-10-15,Diabetes,Surgery,12776,75,Male,Low,ICU Care,No,Cash,General,Dr. John
+207,2023-09-23,2023-09-24,Covid,General,4351,15,Female,Low,Medication,Yes,Insurance,ICU,Dr. Smith
+208,2023-03-07,2023-03-09,Diabetes,Cardiology,3214,22,Female,High,Surgery,No,Cash,ICU,Dr. Smith
+209,2023-09-02,2023-09-11,Infection,General,5646,66,Female,Medium,Medication,No,Cash,General,Dr. Smith
+210,2023-10-11,2023-10-14,Hypertension,Surgery,18911,17,Male,Medium,Surgery,Yes,Insurance,General,Dr. Kumar
+211,2023-11-05,2023-11-12,Fever,Surgery,19637,11,Female,High,Surgery,No,Cash,General,Dr. Smith
+212,2023-07-17,2023-07-23,Covid,ICU,19149,72,Male,Medium,Medication,No,Cash,Private,Dr. John
+213,2023-06-11,2023-06-21,Covid,Surgery,13695,42,Male,High,ICU Care,No,Cash,General,Dr. Smith
+214,2023-07-18,2023-07-19,Fever,General,2474,3,Male,High,Surgery,Yes,Insurance,Private,Dr. Lee
+215,2023-06-29,2023-07-06,Flu,General,5293,19,Female,Low,Medication,Yes,Insurance,ICU,Dr. John
+216,2023-05-28,2023-06-07,Fever,Cardiology,3732,47,Female,High,Medication,No,Cash,General,Dr. Kumar
+217,2023-05-13,2023-05-16,Diabetes,ICU,19493,89,Female,High,Medication,Yes,Insurance,ICU,Dr. John
+218,2023-10-23,2023-10-26,Diabetes,Cardiology,3574,78,Female,High,Medication,No,Cash,General,Dr. Smith
+219,2023-06-21,2023-06-22,Hypertension,General,3999,11,Female,Medium,Medication,Yes,Insurance,Private,Dr. Smith
+220,2023-01-11,2023-01-12,Diabetes,Cardiology,4466,80,Male,High,ICU Care,No,Cash,General,Dr. Smith
+221,2023-01-15,2023-01-20,Flu,Surgery,18924,58,Male,High,Medication,Yes,Insurance,Private,Dr. John
+222,2023-03-03,2023-03-06,Covid,Cardiology,1630,80,Male,Low,Medication,No,Cash,ICU,Dr. Kumar
+223,2023-10-03,2023-10-04,Covid,Surgery,16803,80,Male,Medium,Surgery,Yes,Insurance,ICU,Dr. Smith
+224,2023-08-16,2023-08-17,Diabetes,ICU,19020,83,Male,Medium,Surgery,No,Cash,General,Dr. Smith
+225,2023-03-06,2023-03-13,Diabetes,General,2580,27,Female,High,Medication,Yes,Insurance,ICU,Dr. John
+226,2023-08-31,2023-09-07,Fever,Emergency,4448,30,Male,Medium,ICU Care,Yes,Insurance,ICU,Dr. Kumar
+227,2023-04-19,2023-04-26,Diabetes,Cardiology,2272,12,Male,High,ICU Care,Yes,Insurance,General,Dr. Lee
+228,2023-06-16,2023-06-20,Covid,ICU,13743,53,Female,High,Surgery,No,Cash,ICU,Dr. John
+229,2023-06-29,2023-07-02,Hypertension,Surgery,10831,89,Male,High,ICU Care,Yes,Insurance,ICU,Dr. Smith
+230,2023-08-02,2023-08-09,Fever,Emergency,2429,65,Female,Medium,ICU Care,Yes,Insurance,ICU,Dr. Kumar
+231,2023-02-17,2023-02-23,Covid,General,1618,88,Male,Medium,Medication,Yes,Insurance,General,Dr. Lee
+232,2023-07-13,2023-07-17,Hypertension,Cardiology,2998,45,Male,Low,ICU Care,Yes,Insurance,Private,Dr. Smith
+233,2023-03-08,2023-03-17,Fever,Surgery,13893,51,Male,High,Surgery,No,Cash,Private,Dr. Smith
+234,2023-09-28,2023-09-29,Diabetes,ICU,13019,13,Male,High,Surgery,No,Cash,Private,Dr. Kumar
+235,2023-10-26,2023-11-05,Diabetes,General,5199,81,Male,Medium,Surgery,No,Cash,General,Dr. Smith
+236,2023-07-04,2023-07-11,Fever,Cardiology,2960,72,Female,Low,Surgery,Yes,Insurance,Private,Dr. Smith
+237,2023-07-17,2023-07-24,Flu,Emergency,4359,33,Male,Medium,Surgery,Yes,Insurance,General,Dr. Kumar
+238,2023-05-28,2023-06-07,Hypertension,Cardiology,5636,46,Female,Medium,ICU Care,Yes,Insurance,Private,Dr. Smith
+239,2023-08-17,2023-08-27,Diabetes,Cardiology,4872,69,Female,Low,Medication,No,Cash,General,Dr. John
+240,2023-11-15,2023-11-23,Flu,Cardiology,4679,31,Male,Medium,Medication,No,Cash,General,Dr. Kumar
+241,2023-01-08,2023-01-18,Covid,Cardiology,1160,49,Female,Low,Surgery,No,Cash,Private,Dr. Kumar
+242,2023-04-27,2023-04-29,Diabetes,Cardiology,5669,66,Female,Medium,Surgery,Yes,Insurance,ICU,Dr. Lee
+243,2023-06-30,2023-07-07,Hypertension,General,4693,31,Male,Low,Surgery,Yes,Insurance,Private,Dr. Lee
+244,2023-11-26,2023-12-02,Covid,Emergency,5950,1,Male,High,Surgery,Yes,Insurance,General,Dr. Kumar
+245,2023-05-29,2023-06-03,Covid,Surgery,22292,39,Male,High,ICU Care,Yes,Insurance,ICU,Dr. John
+246,2023-11-30,2023-12-05,Flu,Emergency,2647,82,Male,Medium,Medication,No,Cash,Private,Dr. John
+247,2023-02-09,2023-02-18,Flu,General,1075,85,Female,High,Surgery,Yes,Insurance,Private,Dr. Lee
+248,2023-09-20,2023-09-26,Infection,General,5283,55,Male,Low,ICU Care,Yes,Insurance,Private,Dr. Kumar
+249,2023-09-14,2023-09-22,Diabetes,Cardiology,5943,88,Male,Medium,ICU Care,No,Cash,ICU,Dr. Lee
+250,2023-02-08,2023-02-17,Fever,Cardiology,2235,54,Male,Medium,ICU Care,No,Cash,ICU,Dr. Smith
+251,2023-06-16,2023-06-21,Flu,ICU,18231,66,Male,Medium,Medication,Yes,Insurance,ICU,Dr. Lee
+252,2023-09-27,2023-10-04,Flu,General,5844,25,Female,Low,ICU Care,Yes,Insurance,General,Dr. Kumar
+253,2023-10-23,2023-10-26,Fever,Surgery,17453,23,Female,Low,Medication,Yes,Insurance,ICU,Dr. Kumar
+254,2023-10-04,2023-10-06,Infection,Cardiology,1526,5,Male,High,ICU Care,Yes,Insurance,General,Dr. Smith
+255,2023-05-26,2023-05-29,Fever,General,5931,89,Male,High,ICU Care,Yes,Insurance,ICU,Dr. Lee
+256,2023-12-10,2023-12-13,Infection,General,3833,45,Male,Low,Surgery,Yes,Insurance,Private,Dr. John
+257,2023-01-05,2023-01-12,Covid,Cardiology,3444,23,Male,High,Medication,Yes,Insurance,Private,Dr. John
+258,2023-05-07,2023-05-08,Flu,ICU,19714,65,Female,Low,ICU Care,Yes,Insurance,Private,Dr. Smith
+259,2023-03-21,2023-03-26,Covid,ICU,18688,26,Male,Medium,ICU Care,Yes,Insurance,General,Dr. Smith
+260,2023-03-25,2023-04-03,Diabetes,Surgery,15128,16,Male,Medium,ICU Care,No,Cash,General,Dr. Kumar
+261,2023-07-05,2023-07-13,Diabetes,General,3294,52,Male,Low,Surgery,Yes,Insurance,General,Dr. Kumar
+262,2023-06-03,2023-06-11,Fever,ICU,19095,59,Female,High,Surgery,Yes,Insurance,Private,Dr. Kumar
+263,2023-01-28,2023-01-30,Diabetes,Emergency,4392,70,Female,High,Surgery,No,Cash,Private,Dr. Smith
+264,2023-09-11,2023-09-17,Infection,Cardiology,1066,33,Female,Medium,Surgery,No,Cash,General,Dr. John
+265,2023-02-03,2023-02-08,Diabetes,ICU,11429,13,Male,Low,ICU Care,No,Cash,General,Dr. Kumar
+266,2023-10-05,2023-10-09,Fever,Emergency,3199,86,Female,High,Medication,No,Cash,Private,Dr. John
+267,2023-07-01,2023-07-08,Fever,ICU,18662,3,Female,Medium,Medication,No,Cash,Private,Dr. Lee
+268,2023-09-29,2023-10-01,Hypertension,ICU,19946,69,Female,High,ICU Care,Yes,Insurance,ICU,Dr. Lee
+269,2023-06-29,2023-07-04,Covid,General,2908,85,Male,Medium,ICU Care,Yes,Insurance,General,Dr. Smith
+270,2023-06-28,2023-07-05,Diabetes,General,5948,24,Female,Medium,Surgery,Yes,Insurance,General,Dr. Smith
+271,2023-01-29,2023-01-30,Fever,Emergency,3025,57,Female,Medium,Medication,Yes,Insurance,General,Dr. John
+272,2023-07-26,2023-07-27,Diabetes,ICU,12220,43,Female,Low,Surgery,Yes,Insurance,ICU,Dr. Kumar
+273,2023-07-03,2023-07-09,Hypertension,Cardiology,5096,43,Male,Low,ICU Care,Yes,Insurance,ICU,Dr. Kumar
+274,2023-05-20,2023-05-21,Fever,General,1074,47,Female,Medium,ICU Care,No,Cash,Private,Dr. Kumar
+275,2023-11-20,2023-11-21,Fever,Emergency,1961,58,Female,High,Medication,Yes,Insurance,Private,Dr. Kumar
+276,2023-08-16,2023-08-23,Hypertension,General,5008,23,Female,High,Medication,Yes,Insurance,General,Dr. Kumar
+277,2023-02-25,2023-03-05,Covid,General,5086,24,Female,Medium,ICU Care,Yes,Insurance,Private,Dr. Lee
+278,2023-12-22,2023-12-31,Diabetes,ICU,14426,38,Male,Medium,Medication,Yes,Insurance,General,Dr. John
+279,2023-03-22,2023-03-27,Flu,Emergency,2353,77,Male,Low,Surgery,Yes,Insurance,ICU,Dr. John
+280,2023-12-19,2023-12-23,Flu,General,4328,26,Male,High,Medication,No,Cash,General,Dr. Lee
+281,2023-04-21,2023-04-23,Diabetes,Emergency,5087,76,Male,High,Surgery,No,Cash,ICU,Dr. Kumar
+282,2023-07-17,2023-07-18,Flu,Cardiology,2478,21,Female,Low,Surgery,Yes,Insurance,ICU,Dr. Lee
+283,2023-08-06,2023-08-10,Infection,Emergency,4255,52,Male,Medium,Surgery,No,Cash,General,Dr. Smith
+284,2023-06-10,2023-06-18,Diabetes,ICU,13320,57,Female,Medium,Medication,No,Cash,General,Dr. Kumar
+285,2023-02-01,2023-02-02,Flu,Cardiology,2676,88,Male,High,ICU Care,Yes,Insurance,Private,Dr. John
+286,2023-01-14,2023-01-21,Hypertension,Emergency,4564,41,Male,Low,Surgery,No,Cash,ICU,Dr. Smith
+287,2023-04-02,2023-04-03,Diabetes,Surgery,10304,60,Female,High,Surgery,No,Cash,General,Dr. Kumar
+288,2023-10-12,2023-10-19,Flu,General,5488,76,Female,High,Medication,Yes,Insurance,Private,Dr. Kumar
+289,2023-08-16,2023-08-18,Diabetes,General,4223,28,Male,Medium,ICU Care,Yes,Insurance,Private,Dr. Lee
+290,2023-04-09,2023-04-16,Fever,Surgery,21949,35,Male,Low,ICU Care,Yes,Insurance,Private,Dr. Smith
+291,2023-12-03,2023-12-08,Fever,Emergency,4637,80,Male,Low,Surgery,Yes,Insurance,ICU,Dr. Kumar
+292,2023-10-27,2023-10-29,Infection,Surgery,12433,17,Female,High,Medication,No,Cash,ICU,Dr. Lee
+293,2023-09-23,2023-09-28,Fever,ICU,15325,22,Female,High,ICU Care,No,Cash,Private,Dr. John
+294,2023-01-10,2023-01-13,Fever,Cardiology,1941,65,Female,High,Medication,Yes,Insurance,General,Dr. John
+295,2023-07-26,2023-07-30,Covid,General,1231,56,Male,Medium,Surgery,No,Cash,ICU,Dr. Smith
+296,2023-02-26,2023-02-27,Infection,General,1269,60,Female,Medium,Medication,No,Cash,Private,Dr. Smith
+297,2023-06-05,2023-06-13,Flu,General,2777,77,Female,Medium,ICU Care,No,Cash,General,Dr. Smith
+298,2023-05-23,2023-05-30,Fever,Emergency,1215,45,Male,Medium,ICU Care,No,Cash,ICU,Dr. Lee
+299,2023-02-16,2023-02-21,Covid,Surgery,14692,67,Female,High,ICU Care,Yes,Insurance,General,Dr. John
+300,2023-08-23,2023-09-02,Fever,Cardiology,5047,63,Male,High,ICU Care,No,Cash,Private,Dr. Smith
+301,2023-03-31,2023-04-09,Diabetes,ICU,19962,41,Female,High,Medication,No,Cash,General,Dr. Smith
+302,2023-05-29,2023-06-08,Fever,Emergency,4041,35,Female,Medium,Medication,Yes,Insurance,General,Dr. Kumar
+303,2023-07-02,2023-07-06,Fever,ICU,9028,33,Male,Low,Surgery,Yes,Insurance,General,Dr. Kumar
+304,2023-07-24,2023-08-03,Flu,General,2730,85,Male,Low,ICU Care,No,Cash,Private,Dr. John
+305,2023-10-28,2023-10-31,Infection,General,5929,30,Male,Medium,ICU Care,No,Cash,General,Dr. John
+306,2023-11-04,2023-11-07,Flu,General,1014,43,Male,High,Medication,Yes,Insurance,Private,Dr. Kumar
+307,2023-07-31,2023-08-03,Diabetes,ICU,11903,69,Male,Low,ICU Care,No,Cash,General,Dr. Kumar
+308,2023-12-09,2023-12-14,Covid,Emergency,1659,10,Female,Low,ICU Care,No,Cash,General,Dr. John
+309,2023-06-09,2023-06-15,Infection,ICU,9158,8,Female,High,Medication,Yes,Insurance,General,Dr. John
+310,2023-05-14,2023-05-20,Diabetes,Surgery,12318,19,Female,High,Surgery,No,Cash,ICU,Dr. Smith
+311,2023-07-17,2023-07-24,Flu,Cardiology,1883,8,Female,Low,Medication,No,Cash,ICU,Dr. John
+312,2023-04-26,2023-05-04,Flu,Cardiology,4579,70,Female,High,ICU Care,No,Cash,Private,Dr. John
+313,2023-03-26,2023-03-31,Flu,General,2503,54,Male,Low,ICU Care,No,Cash,Private,Dr. John
+314,2023-09-28,2023-10-01,Diabetes,Emergency,2033,49,Male,High,Medication,No,Cash,ICU,Dr. Kumar
+315,2023-07-17,2023-07-22,Hypertension,Emergency,5987,14,Male,Low,Medication,No,Cash,ICU,Dr. Kumar
+316,2023-06-07,2023-06-10,Fever,Emergency,5346,73,Male,Low,Medication,No,Cash,Private,Dr. Smith
+317,2023-11-02,2023-11-04,Fever,General,2205,21,Female,High,ICU Care,No,Cash,General,Dr. John
+318,2023-04-06,2023-04-13,Diabetes,ICU,12273,46,Male,Medium,Surgery,Yes,Insurance,Private,Dr. Lee
+319,2023-12-20,2023-12-29,Hypertension,Cardiology,1566,39,Male,Low,Surgery,No,Cash,ICU,Dr. Kumar
+320,2023-01-06,2023-01-16,Covid,Cardiology,2632,26,Male,Medium,Surgery,No,Cash,ICU,Dr. John
+321,2023-09-25,2023-09-27,Hypertension,Surgery,19651,42,Female,High,Surgery,Yes,Insurance,ICU,Dr. Kumar
+322,2023-07-10,2023-07-13,Flu,Emergency,1135,5,Female,Medium,Surgery,Yes,Insurance,General,Dr. Kumar
+323,2023-03-24,2023-04-03,Fever,Emergency,3337,87,Female,Low,ICU Care,Yes,Insurance,Private,Dr. Kumar
+324,2023-11-08,2023-11-16,Covid,Emergency,3959,25,Male,Medium,Surgery,No,Cash,General,Dr. Lee
+325,2023-03-21,2023-03-24,Covid,Emergency,4664,44,Female,Low,ICU Care,Yes,Insurance,Private,Dr. Smith
+326,2023-10-25,2023-11-03,Hypertension,Cardiology,1405,70,Male,High,Medication,Yes,Insurance,Private,Dr. John
+327,2023-03-03,2023-03-06,Flu,Cardiology,1620,85,Female,Medium,ICU Care,Yes,Insurance,General,Dr. John
+328,2023-03-02,2023-03-05,Hypertension,Emergency,5819,55,Female,Medium,Medication,Yes,Insurance,ICU,Dr. Lee
+329,2023-08-28,2023-09-07,Hypertension,General,4922,41,Male,Medium,Medication,No,Cash,General,Dr. Kumar
+330,2023-04-19,2023-04-28,Fever,Surgery,24579,60,Male,High,Surgery,Yes,Insurance,General,Dr. Smith
+331,2023-06-06,2023-06-14,Infection,ICU,11809,42,Male,High,Medication,No,Cash,ICU,Dr. Smith
+332,2023-03-02,2023-03-06,Diabetes,Surgery,10965,61,Female,Medium,Surgery,Yes,Insurance,ICU,Dr. Lee
+333,2023-09-27,2023-09-30,Flu,ICU,15839,15,Male,Medium,Surgery,No,Cash,Private,Dr. John
+334,2023-01-29,2023-01-30,Flu,General,3840,9,Male,Low,Medication,Yes,Insurance,Private,Dr. Smith
+335,2023-03-16,2023-03-23,Hypertension,Surgery,23464,27,Female,High,Surgery,Yes,Insurance,ICU,Dr. Smith
+336,2023-04-17,2023-04-23,Fever,Emergency,3442,54,Male,Medium,Surgery,No,Cash,General,Dr. Lee
+337,2023-09-23,2023-09-25,Fever,ICU,14869,32,Male,High,Surgery,Yes,Insurance,Private,Dr. John
+338,2023-10-11,2023-10-14,Covid,General,2881,60,Male,Low,ICU Care,No,Cash,General,Dr. Lee
+339,2023-09-30,2023-10-03,Fever,ICU,16899,64,Male,Low,Medication,No,Cash,ICU,Dr. Kumar
+340,2023-07-07,2023-07-09,Hypertension,Emergency,2260,27,Female,Medium,Surgery,Yes,Insurance,General,Dr. Smith
+341,2023-11-16,2023-11-24,Hypertension,General,2691,50,Male,High,ICU Care,No,Cash,ICU,Dr. Lee
+342,2023-09-18,2023-09-25,Covid,Cardiology,1885,2,Female,High,Medication,Yes,Insurance,General,Dr. Smith
+343,2023-01-24,2023-01-28,Fever,ICU,18731,11,Male,High,Medication,Yes,Insurance,General,Dr. Kumar
+344,2023-12-19,2023-12-21,Covid,Cardiology,1094,46,Male,Medium,Surgery,Yes,Insurance,ICU,Dr. Kumar
+345,2023-06-06,2023-06-10,Hypertension,Surgery,11928,37,Male,Medium,Medication,Yes,Insurance,ICU,Dr. Smith
+346,2023-05-01,2023-05-07,Fever,General,5859,21,Female,Low,ICU Care,No,Cash,ICU,Dr. Kumar
+347,2023-09-25,2023-10-03,Fever,Cardiology,4747,79,Male,High,Surgery,No,Cash,General,Dr. Smith
+348,2023-04-24,2023-05-04,Fever,ICU,13964,33,Male,High,ICU Care,Yes,Insurance,Private,Dr. Lee
+349,2023-01-04,2023-01-07,Covid,Emergency,5550,20,Male,Medium,Medication,No,Cash,General,Dr. John
+350,2023-04-27,2023-05-07,Diabetes,Cardiology,2139,43,Male,High,Medication,Yes,Insurance,ICU,Dr. John
+351,2023-05-20,2023-05-29,Diabetes,Emergency,3173,25,Male,High,Medication,Yes,Insurance,General,Dr. Kumar
+352,2023-04-26,2023-04-29,Covid,Emergency,5002,76,Female,Medium,Surgery,No,Cash,ICU,Dr. Kumar
+353,2023-01-01,2023-01-05,Infection,Emergency,2273,3,Female,Low,Surgery,No,Cash,ICU,Dr. Smith
+354,2023-04-14,2023-04-17,Diabetes,Emergency,4075,89,Male,Low,Surgery,Yes,Insurance,General,Dr. John
+355,2023-02-09,2023-02-17,Diabetes,Emergency,3321,56,Female,Medium,ICU Care,Yes,Insurance,ICU,Dr. Lee
+356,2023-06-15,2023-06-16,Flu,Surgery,21302,42,Female,Medium,ICU Care,Yes,Insurance,Private,Dr. Kumar
+357,2023-01-13,2023-01-20,Hypertension,Cardiology,3594,33,Female,High,ICU Care,Yes,Insurance,ICU,Dr. Lee
+358,2023-03-30,2023-04-09,Diabetes,Cardiology,4029,63,Male,High,Medication,No,Cash,Private,Dr. Kumar
+359,2023-08-14,2023-08-23,Infection,General,2873,85,Male,Medium,ICU Care,No,Cash,General,Dr. Lee
+360,2023-04-12,2023-04-15,Diabetes,Emergency,2484,16,Female,High,Medication,No,Cash,Private,Dr. Kumar
+361,2023-03-30,2023-04-08,Diabetes,Surgery,12866,20,Male,High,ICU Care,Yes,Insurance,Private,Dr. Kumar
+362,2023-11-27,2023-11-30,Flu,ICU,17545,74,Female,Medium,Medication,No,Cash,General,Dr. John
+363,2023-04-26,2023-05-05,Fever,Surgery,14875,27,Female,Medium,Medication,No,Cash,Private,Dr. John
+364,2023-03-08,2023-03-11,Hypertension,Cardiology,2871,42,Female,Low,ICU Care,No,Cash,Private,Dr. John
+365,2023-09-30,2023-10-09,Covid,Surgery,22868,30,Female,Low,Medication,Yes,Insurance,General,Dr. Lee
+366,2023-06-14,2023-06-18,Flu,General,5673,62,Male,Medium,Surgery,Yes,Insurance,Private,Dr. Smith
+367,2023-06-08,2023-06-11,Fever,ICU,11891,21,Male,Medium,Surgery,Yes,Insurance,General,Dr. Smith
+368,2023-05-04,2023-05-09,Diabetes,Surgery,20702,35,Male,Low,ICU Care,Yes,Insurance,ICU,Dr. Smith
+369,2023-09-08,2023-09-11,Diabetes,General,5143,71,Female,High,Medication,No,Cash,ICU,Dr. Lee
+370,2023-01-20,2023-01-29,Fever,Emergency,3841,45,Male,Medium,Surgery,Yes,Insurance,Private,Dr. Kumar
+371,2023-10-08,2023-10-09,Hypertension,Surgery,14280,31,Female,High,ICU Care,No,Cash,ICU,Dr. Kumar
+372,2023-09-28,2023-10-04,Covid,Surgery,18848,18,Female,High,Medication,No,Cash,Private,Dr. Lee
+373,2023-07-13,2023-07-19,Hypertension,ICU,17515,84,Female,High,ICU Care,Yes,Insurance,Private,Dr. Lee
+374,2023-03-29,2023-03-30,Flu,ICU,9402,29,Male,High,Surgery,Yes,Insurance,ICU,Dr. Lee
+375,2023-12-26,2024-01-02,Flu,General,3153,90,Female,Low,ICU Care,No,Cash,ICU,Dr. John
+376,2023-05-21,2023-05-24,Hypertension,Surgery,13892,27,Male,Low,Surgery,No,Cash,General,Dr. Smith
+377,2023-06-12,2023-06-13,Covid,Emergency,2044,63,Female,Medium,Medication,Yes,Insurance,Private,Dr. Smith
+378,2023-11-15,2023-11-24,Fever,ICU,10227,70,Male,Medium,ICU Care,No,Cash,Private,Dr. Kumar
+379,2023-10-20,2023-10-24,Hypertension,Emergency,1298,57,Female,High,ICU Care,No,Cash,ICU,Dr. Kumar
+380,2023-09-15,2023-09-25,Covid,General,1033,42,Female,Low,Medication,Yes,Insurance,Private,Dr. Smith
+381,2023-08-03,2023-08-10,Diabetes,ICU,14556,25,Male,Medium,Surgery,Yes,Insurance,Private,Dr. Lee
+382,2023-01-21,2023-01-30,Fever,Surgery,14584,54,Male,Medium,Medication,No,Cash,General,Dr. Lee
+383,2023-07-14,2023-07-20,Hypertension,Emergency,4498,1,Male,Low,ICU Care,No,Cash,Private,Dr. Smith
+384,2023-08-15,2023-08-16,Diabetes,Cardiology,1312,70,Male,Medium,Surgery,Yes,Insurance,Private,Dr. Smith
+385,2023-06-22,2023-06-28,Flu,Emergency,3905,32,Female,Medium,Surgery,No,Cash,Private,Dr. Lee
+386,2023-05-10,2023-05-16,Diabetes,Surgery,11577,76,Female,Medium,Medication,No,Cash,Private,Dr. Kumar
+387,2023-02-02,2023-02-10,Infection,Surgery,18105,12,Female,High,Medication,Yes,Insurance,General,Dr. John
+388,2023-12-03,2023-12-07,Diabetes,Surgery,11946,61,Female,High,ICU Care,No,Cash,General,Dr. Lee
+389,2023-08-18,2023-08-28,Flu,Surgery,18289,15,Male,High,Medication,No,Cash,General,Dr. Smith
+390,2023-03-28,2023-03-31,Flu,Cardiology,4670,41,Male,Medium,ICU Care,No,Cash,ICU,Dr. John
+391,2023-04-09,2023-04-17,Infection,Emergency,3746,19,Male,High,Surgery,No,Cash,Private,Dr. John
+392,2023-06-26,2023-06-29,Covid,Emergency,4968,62,Male,Low,Surgery,No,Cash,ICU,Dr. Lee
+393,2023-08-01,2023-08-02,Covid,Cardiology,5801,62,Male,Medium,ICU Care,No,Cash,General,Dr. Lee
+394,2023-03-08,2023-03-14,Flu,Emergency,3215,1,Male,Medium,Medication,No,Cash,ICU,Dr. Kumar
+395,2023-05-02,2023-05-04,Diabetes,General,3945,58,Male,High,Medication,Yes,Insurance,General,Dr. Smith
+396,2023-03-30,2023-04-01,Infection,ICU,19960,28,Female,Medium,ICU Care,No,Cash,General,Dr. Smith
+397,2023-03-04,2023-03-12,Diabetes,ICU,14171,58,Female,Low,Surgery,Yes,Insurance,Private,Dr. Smith
+398,2023-03-06,2023-03-08,Flu,Cardiology,3216,61,Female,Medium,Surgery,Yes,Insurance,ICU,Dr. Lee
+399,2023-02-07,2023-02-16,Flu,Cardiology,4025,71,Female,Low,ICU Care,No,Cash,ICU,Dr. Smith
+400,2023-08-28,2023-08-31,Diabetes,Surgery,22299,86,Female,Low,Medication,No,Cash,ICU,Dr. Lee
+401,2023-09-11,2023-09-15,Covid,Cardiology,5538,36,Male,Medium,Surgery,Yes,Insurance,Private,Dr. Kumar
+402,2023-08-25,2023-08-29,Hypertension,Surgery,12153,75,Female,Low,ICU Care,No,Cash,Private,Dr. Kumar
+403,2023-10-23,2023-10-26,Infection,Cardiology,1258,25,Female,High,Medication,No,Cash,ICU,Dr. Lee
+404,2023-07-29,2023-08-03,Hypertension,ICU,16648,68,Female,Low,Medication,Yes,Insurance,General,Dr. John
+405,2023-01-14,2023-01-16,Covid,Emergency,5113,51,Male,High,Surgery,No,Cash,Private,Dr. Smith
+406,2023-04-18,2023-04-27,Diabetes,ICU,15327,15,Male,Low,Medication,Yes,Insurance,Private,Dr. Lee
+407,2023-02-21,2023-02-25,Diabetes,General,4609,32,Male,Medium,ICU Care,No,Cash,ICU,Dr. Kumar
+408,2023-12-02,2023-12-09,Flu,Cardiology,3612,63,Male,Low,Medication,No,Cash,Private,Dr. John
+409,2023-03-29,2023-04-07,Infection,General,4126,54,Female,Medium,ICU Care,No,Cash,Private,Dr. Smith
+410,2023-12-31,2024-01-07,Diabetes,Emergency,3197,84,Female,Low,ICU Care,No,Cash,General,Dr. John
+411,2023-05-26,2023-06-04,Flu,Surgery,18257,24,Female,High,ICU Care,Yes,Insurance,ICU,Dr. Lee
+412,2023-10-13,2023-10-20,Hypertension,General,4635,66,Male,Low,Surgery,No,Cash,ICU,Dr. Kumar
+413,2023-06-30,2023-07-08,Hypertension,Surgery,14783,26,Male,High,Medication,No,Cash,General,Dr. John
+414,2023-04-18,2023-04-21,Diabetes,ICU,14853,48,Male,Medium,Surgery,Yes,Insurance,ICU,Dr. John
+415,2023-05-05,2023-05-06,Covid,Surgery,14352,63,Female,Medium,Surgery,Yes,Insurance,Private,Dr. Lee
+416,2023-11-14,2023-11-19,Infection,Emergency,1549,43,Male,Medium,Medication,Yes,Insurance,Private,Dr. Lee
+417,2023-04-12,2023-04-20,Covid,Emergency,3369,2,Female,High,ICU Care,No,Cash,General,Dr. Lee
+418,2023-01-02,2023-01-03,Fever,ICU,19636,44,Male,Low,Surgery,Yes,Insurance,Private,Dr. John
+419,2023-07-02,2023-07-09,Fever,Surgery,11287,17,Male,Low,Surgery,No,Cash,ICU,Dr. Kumar
+420,2023-05-11,2023-05-13,Infection,ICU,14312,5,Female,Low,ICU Care,No,Cash,General,Dr. John
+421,2023-01-17,2023-01-23,Infection,Surgery,11668,49,Male,High,Medication,Yes,Insurance,General,Dr. Kumar
+422,2023-01-07,2023-01-08,Flu,Cardiology,5634,67,Male,Low,Medication,Yes,Insurance,ICU,Dr. Lee
+423,2023-05-09,2023-05-16,Covid,Surgery,13439,76,Male,Low,Surgery,Yes,Insurance,General,Dr. Lee
+424,2023-05-16,2023-05-22,Fever,Cardiology,2415,45,Male,Medium,ICU Care,Yes,Insurance,ICU,Dr. Smith
+425,2023-02-18,2023-02-21,Flu,ICU,15567,74,Male,Low,Medication,Yes,Insurance,Private,Dr. John
+426,2023-07-09,2023-07-16,Covid,Surgery,19014,70,Female,Low,Medication,Yes,Insurance,ICU,Dr. Smith
+427,2023-04-30,2023-05-05,Flu,Emergency,2539,42,Female,High,ICU Care,No,Cash,Private,Dr. Lee
+428,2023-06-17,2023-06-27,Covid,Surgery,18829,17,Male,Medium,Surgery,No,Cash,ICU,Dr. Smith
+429,2023-05-19,2023-05-22,Hypertension,ICU,14806,7,Female,Medium,Medication,Yes,Insurance,ICU,Dr. Kumar
+430,2023-04-01,2023-04-11,Hypertension,General,4074,51,Male,Medium,Surgery,No,Cash,General,Dr. Lee
+431,2023-02-07,2023-02-08,Diabetes,General,3626,58,Male,Medium,Surgery,No,Cash,General,Dr. Kumar
+432,2023-09-09,2023-09-19,Diabetes,General,1582,86,Male,High,Medication,Yes,Insurance,ICU,Dr. Smith
+433,2023-12-05,2023-12-08,Fever,ICU,11074,63,Male,High,Medication,No,Cash,Private,Dr. Smith
+434,2023-01-17,2023-01-21,Fever,ICU,10067,31,Male,Low,Surgery,No,Cash,General,Dr. Lee
+435,2023-01-23,2023-01-25,Covid,Emergency,1254,31,Male,Low,ICU Care,Yes,Insurance,General,Dr. Lee
+436,2023-01-15,2023-01-25,Infection,General,3467,3,Male,Low,Medication,No,Cash,ICU,Dr. Smith
+437,2023-07-27,2023-07-30,Covid,Cardiology,5035,86,Female,High,ICU Care,No,Cash,ICU,Dr. Kumar
+438,2023-09-24,2023-09-27,Fever,Emergency,2428,32,Female,High,ICU Care,No,Cash,ICU,Dr. Smith
+439,2023-11-17,2023-11-23,Hypertension,Surgery,17088,57,Female,Low,Surgery,No,Cash,ICU,Dr. John
+440,2023-10-23,2023-10-27,Infection,General,5163,88,Male,Medium,Surgery,Yes,Insurance,General,Dr. Smith
+441,2023-02-10,2023-02-13,Infection,Cardiology,2748,87,Male,Medium,Medication,Yes,Insurance,Private,Dr. Kumar
+442,2023-01-17,2023-01-22,Infection,General,5346,33,Male,High,Medication,No,Cash,Private,Dr. John
+443,2023-03-25,2023-03-31,Fever,Emergency,2317,75,Female,High,Surgery,No,Cash,ICU,Dr. Lee
+444,2023-07-21,2023-07-31,Fever,Cardiology,5217,18,Female,Medium,Medication,No,Cash,ICU,Dr. Smith
+445,2023-11-21,2023-11-29,Diabetes,ICU,10717,62,Male,High,ICU Care,Yes,Insurance,ICU,Dr. Kumar
+446,2023-08-12,2023-08-17,Covid,General,2185,79,Male,Medium,Medication,Yes,Insurance,General,Dr. Smith
+447,2023-02-27,2023-03-04,Covid,Cardiology,2091,59,Female,Low,Surgery,No,Cash,ICU,Dr. Lee
+448,2023-08-08,2023-08-10,Flu,ICU,15028,3,Male,Medium,ICU Care,Yes,Insurance,ICU,Dr. Kumar
+449,2023-01-13,2023-01-15,Fever,Cardiology,4799,68,Male,High,Surgery,Yes,Insurance,Private,Dr. Smith
+450,2023-11-27,2023-11-29,Diabetes,General,4043,45,Female,Medium,ICU Care,No,Cash,Private,Dr. Lee
+451,2023-03-01,2023-03-04,Fever,ICU,13432,67,Male,High,Medication,No,Cash,ICU,Dr. Kumar
+452,2023-05-29,2023-06-02,Diabetes,Cardiology,3158,26,Male,Medium,Medication,Yes,Insurance,Private,Dr. Kumar
+453,2023-08-16,2023-08-22,Diabetes,Surgery,14464,77,Female,Medium,Surgery,No,Cash,General,Dr. John
+454,2023-12-20,2023-12-25,Infection,ICU,11492,27,Male,Low,Surgery,Yes,Insurance,Private,Dr. John
+455,2023-03-01,2023-03-04,Infection,Surgery,10306,33,Female,High,Medication,No,Cash,ICU,Dr. Smith
+456,2023-11-30,2023-12-08,Covid,Emergency,5336,45,Male,High,Medication,No,Cash,ICU,Dr. John
+457,2023-02-15,2023-02-19,Covid,Cardiology,4082,20,Female,Medium,Medication,No,Cash,General,Dr. John
+458,2023-04-13,2023-04-19,Hypertension,Surgery,11230,42,Male,High,Medication,No,Cash,Private,Dr. John
+459,2023-04-08,2023-04-11,Hypertension,General,5310,51,Male,High,Medication,No,Cash,General,Dr. Lee
+460,2023-03-07,2023-03-17,Hypertension,ICU,10468,9,Female,Medium,ICU Care,Yes,Insurance,General,Dr. John
+461,2023-08-24,2023-09-02,Fever,Emergency,5555,26,Male,High,ICU Care,Yes,Insurance,Private,Dr. Smith
+462,2023-10-10,2023-10-14,Infection,ICU,15090,89,Male,High,ICU Care,No,Cash,Private,Dr. Lee
+463,2023-04-24,2023-05-04,Diabetes,Emergency,1110,80,Female,Low,ICU Care,No,Cash,ICU,Dr. John
+464,2023-12-18,2023-12-23,Hypertension,Cardiology,1312,8,Female,High,Surgery,Yes,Insurance,General,Dr. John
+465,2023-10-03,2023-10-08,Infection,Surgery,16897,51,Female,Low,Surgery,Yes,Insurance,Private,Dr. Kumar
+466,2023-02-06,2023-02-07,Covid,Surgery,14507,78,Male,High,ICU Care,Yes,Insurance,Private,Dr. Smith
+467,2023-12-28,2024-01-02,Diabetes,Emergency,4857,28,Female,Medium,ICU Care,No,Cash,ICU,Dr. John
+468,2023-11-30,2023-12-02,Diabetes,ICU,18860,75,Female,Medium,ICU Care,No,Cash,ICU,Dr. Lee
+469,2023-11-17,2023-11-18,Diabetes,General,3512,5,Female,Medium,ICU Care,Yes,Insurance,Private,Dr. Lee
+470,2023-01-10,2023-01-18,Diabetes,Emergency,1445,25,Female,Low,ICU Care,Yes,Insurance,General,Dr. Smith
+471,2023-10-14,2023-10-18,Infection,Cardiology,2049,73,Male,Medium,ICU Care,Yes,Insurance,ICU,Dr. Lee
+472,2023-07-29,2023-08-05,Flu,General,1916,35,Female,High,ICU Care,Yes,Insurance,Private,Dr. Kumar
+473,2023-07-12,2023-07-19,Flu,Cardiology,4614,11,Male,High,Surgery,Yes,Insurance,Private,Dr. Kumar
+474,2023-10-07,2023-10-08,Fever,General,4240,40,Male,Low,Medication,Yes,Insurance,ICU,Dr. Smith
+475,2023-12-10,2023-12-20,Infection,ICU,11619,32,Male,High,Medication,Yes,Insurance,ICU,Dr. Smith
+476,2023-02-12,2023-02-15,Infection,ICU,10802,12,Male,Medium,Surgery,Yes,Insurance,Private,Dr. Smith
+477,2023-12-28,2024-01-07,Infection,General,5355,42,Male,Low,Medication,No,Cash,General,Dr. Kumar
+478,2023-03-12,2023-03-17,Flu,Surgery,21093,90,Male,Medium,ICU Care,Yes,Insurance,General,Dr. Kumar
+479,2023-03-07,2023-03-15,Flu,Surgery,15274,78,Male,Low,Surgery,Yes,Insurance,ICU,Dr. Lee
+480,2023-02-09,2023-02-11,Covid,ICU,8067,76,Female,Medium,Medication,Yes,Insurance,ICU,Dr. John
+481,2023-08-12,2023-08-18,Covid,Emergency,4986,29,Female,High,ICU Care,Yes,Insurance,Private,Dr. John
+482,2023-08-05,2023-08-07,Fever,ICU,11655,65,Female,High,ICU Care,Yes,Insurance,General,Dr. Kumar
+483,2023-10-09,2023-10-15,Diabetes,Emergency,1762,33,Male,High,ICU Care,Yes,Insurance,General,Dr. Kumar
+484,2023-07-10,2023-07-15,Fever,Surgery,23853,72,Male,High,Surgery,Yes,Insurance,ICU,Dr. Kumar
+485,2023-06-03,2023-06-05,Hypertension,Cardiology,1485,48,Female,High,Surgery,No,Cash,ICU,Dr. Lee
+486,2023-03-05,2023-03-14,Fever,Surgery,17841,45,Female,Low,Medication,No,Cash,General,Dr. Lee
+487,2023-01-16,2023-01-19,Flu,ICU,12592,13,Female,High,Medication,Yes,Insurance,General,Dr. John
+488,2023-10-26,2023-11-01,Flu,Surgery,16577,12,Female,High,Medication,No,Cash,Private,Dr. Kumar
+489,2023-04-24,2023-04-26,Fever,Emergency,5718,26,Male,High,ICU Care,No,Cash,General,Dr. Kumar
+490,2023-02-15,2023-02-19,Covid,Emergency,1525,26,Female,Low,Surgery,Yes,Insurance,General,Dr. Lee
+491,2023-08-18,2023-08-21,Covid,Surgery,13938,25,Female,High,ICU Care,No,Cash,General,Dr. John
+492,2023-04-11,2023-04-19,Flu,Emergency,4586,23,Male,Low,Surgery,No,Cash,General,Dr. Kumar
+493,2023-12-12,2023-12-18,Fever,General,4141,46,Male,Low,Surgery,Yes,Insurance,Private,Dr. Lee
+494,2023-05-23,2023-05-25,Diabetes,Emergency,1912,78,Female,Low,ICU Care,Yes,Insurance,Private,Dr. Smith
+495,2023-04-25,2023-05-03,Hypertension,Cardiology,4219,1,Male,High,ICU Care,Yes,Insurance,ICU,Dr. Kumar
+496,2023-08-18,2023-08-25,Flu,Cardiology,3754,81,Male,Low,ICU Care,Yes,Insurance,General,Dr. Lee
+497,2023-03-26,2023-03-29,Flu,General,4043,47,Male,High,ICU Care,No,Cash,ICU,Dr. Smith
+498,2023-04-24,2023-04-28,Diabetes,Cardiology,3704,48,Female,High,ICU Care,No,Cash,Private,Dr. Kumar
+499,2023-02-09,2023-02-12,Infection,General,3771,50,Male,Low,Surgery,No,Cash,ICU,Dr. Smith
+500,2023-12-28,2024-01-04,Hypertension,ICU,13129,84,Female,Low,Medication,No,Cash,ICU,Dr. Kumar
+501,2023-02-13,2023-02-22,Covid,Emergency,2623,7,Male,High,ICU Care,No,Cash,ICU,Dr. Kumar
+502,2023-03-03,2023-03-08,Fever,General,1579,62,Female,Medium,Medication,Yes,Insurance,ICU,Dr. Lee
+503,2023-06-18,2023-06-24,Covid,Emergency,4640,48,Male,High,ICU Care,No,Cash,Private,Dr. Kumar
+504,2023-02-08,2023-02-17,Infection,Cardiology,2451,41,Male,Low,Medication,Yes,Insurance,General,Dr. Lee
+505,2023-07-12,2023-07-17,Infection,Emergency,3923,37,Male,Medium,Medication,Yes,Insurance,ICU,Dr. Kumar
+506,2023-01-08,2023-01-15,Fever,ICU,9916,1,Female,High,Medication,No,Cash,ICU,Dr. John
+507,2023-09-19,2023-09-29,Infection,ICU,10362,63,Female,High,ICU Care,No,Cash,ICU,Dr. Kumar
+508,2023-03-08,2023-03-10,Infection,General,4849,65,Female,High,ICU Care,Yes,Insurance,ICU,Dr. Lee
+509,2023-12-08,2023-12-12,Infection,ICU,19490,51,Male,High,Medication,Yes,Insurance,General,Dr. Kumar
+510,2023-12-09,2023-12-15,Flu,General,4557,15,Male,Medium,Medication,No,Cash,General,Dr. Kumar
+511,2023-08-15,2023-08-20,Hypertension,ICU,18613,87,Male,Low,ICU Care,No,Cash,General,Dr. Lee
+512,2023-10-08,2023-10-14,Covid,Emergency,4834,4,Male,Low,ICU Care,No,Cash,Private,Dr. John
+513,2023-02-15,2023-02-17,Hypertension,General,1701,24,Female,High,Surgery,Yes,Insurance,Private,Dr. John
+514,2023-01-11,2023-01-19,Infection,Cardiology,1435,76,Male,Low,Surgery,Yes,Insurance,Private,Dr. Kumar
+515,2023-02-14,2023-02-19,Hypertension,ICU,11571,78,Female,Low,Surgery,Yes,Insurance,General,Dr. Smith
+516,2023-06-06,2023-06-15,Infection,General,4401,20,Male,Medium,ICU Care,Yes,Insurance,ICU,Dr. Smith
+517,2023-10-10,2023-10-20,Fever,Emergency,3957,58,Female,Low,Medication,Yes,Insurance,General,Dr. Smith
+518,2023-11-09,2023-11-14,Flu,ICU,13333,4,Male,Medium,Medication,Yes,Insurance,ICU,Dr. Smith
+519,2023-03-18,2023-03-22,Infection,ICU,15042,48,Male,Low,Surgery,Yes,Insurance,ICU,Dr. Kumar
+520,2023-02-12,2023-02-17,Infection,Surgery,20867,65,Male,Medium,Medication,No,Cash,General,Dr. Kumar
+521,2023-01-04,2023-01-12,Infection,Cardiology,4409,27,Male,High,Medication,No,Cash,General,Dr. Smith
+522,2023-03-26,2023-03-31,Covid,Cardiology,5409,29,Male,Low,Surgery,Yes,Insurance,Private,Dr. Kumar
+523,2023-10-23,2023-10-24,Infection,ICU,19034,61,Female,Medium,Medication,Yes,Insurance,ICU,Dr. Smith
+524,2023-06-14,2023-06-24,Flu,Surgery,17524,15,Female,High,Surgery,Yes,Insurance,General,Dr. Smith
+525,2023-01-06,2023-01-13,Infection,ICU,8884,7,Female,Low,Medication,No,Cash,General,Dr. Kumar
+526,2023-12-07,2023-12-16,Diabetes,Cardiology,1083,51,Female,Low,Medication,No,Cash,ICU,Dr. Lee
+527,2023-09-25,2023-09-29,Infection,Emergency,5282,29,Male,High,ICU Care,No,Cash,Private,Dr. John
+528,2023-06-19,2023-06-27,Infection,Surgery,23186,38,Female,High,Medication,Yes,Insurance,General,Dr. John
+529,2023-06-07,2023-06-17,Covid,Surgery,21667,89,Male,Low,ICU Care,No,Cash,General,Dr. Kumar
+530,2023-03-26,2023-03-28,Fever,ICU,13202,14,Male,Medium,Surgery,Yes,Insurance,ICU,Dr. Smith
+531,2023-03-09,2023-03-15,Diabetes,General,4699,72,Male,Medium,ICU Care,Yes,Insurance,Private,Dr. Lee
+532,2023-04-12,2023-04-18,Covid,Cardiology,4378,19,Male,Medium,Medication,Yes,Insurance,General,Dr. Lee
+533,2023-10-23,2023-11-02,Diabetes,General,5364,7,Female,High,Surgery,No,Cash,Private,Dr. Kumar
+534,2023-03-21,2023-03-26,Covid,ICU,18900,6,Female,High,Surgery,No,Cash,Private,Dr. Smith
+535,2023-12-26,2023-12-31,Hypertension,Emergency,5224,39,Female,High,Medication,No,Cash,Private,Dr. John
+536,2023-08-08,2023-08-11,Diabetes,Cardiology,5473,76,Male,High,Medication,Yes,Insurance,ICU,Dr. John
+537,2023-04-11,2023-04-16,Diabetes,Emergency,3990,8,Female,Low,ICU Care,No,Cash,Private,Dr. Kumar
+538,2023-03-31,2023-04-06,Flu,Cardiology,1340,78,Male,Medium,ICU Care,No,Cash,ICU,Dr. John
+539,2023-01-12,2023-01-15,Diabetes,Surgery,21121,70,Female,Medium,ICU Care,Yes,Insurance,General,Dr. John
+540,2023-08-11,2023-08-20,Covid,Surgery,22313,44,Male,High,Medication,Yes,Insurance,ICU,Dr. Smith
+541,2023-07-12,2023-07-17,Flu,Emergency,4411,44,Female,Low,ICU Care,Yes,Insurance,General,Dr. John
+542,2023-08-01,2023-08-11,Flu,General,2786,33,Male,High,Medication,No,Cash,General,Dr. Lee
+543,2023-05-20,2023-05-25,Flu,Cardiology,2144,1,Male,Medium,Surgery,Yes,Insurance,General,Dr. Kumar
+544,2023-01-07,2023-01-17,Hypertension,Surgery,15979,53,Male,High,ICU Care,Yes,Insurance,General,Dr. Smith
+545,2023-08-09,2023-08-16,Diabetes,Surgery,20324,88,Male,Low,Medication,Yes,Insurance,ICU,Dr. John
+546,2023-09-15,2023-09-20,Infection,Emergency,3054,34,Female,Low,ICU Care,No,Cash,ICU,Dr. Lee
+547,2023-06-08,2023-06-10,Diabetes,ICU,15252,14,Male,High,ICU Care,Yes,Insurance,ICU,Dr. Lee
+548,2023-12-11,2023-12-14,Diabetes,Surgery,14509,16,Male,Low,Surgery,Yes,Insurance,General,Dr. Smith
+549,2023-06-07,2023-06-12,Covid,ICU,15516,51,Male,Medium,Surgery,No,Cash,General,Dr. Smith
+550,2023-10-02,2023-10-05,Hypertension,ICU,13514,61,Male,High,Surgery,No,Cash,General,Dr. John
+551,2023-05-11,2023-05-17,Covid,ICU,17861,85,Male,High,Surgery,Yes,Insurance,General,Dr. John
+552,2023-01-06,2023-01-13,Diabetes,General,3810,33,Male,Medium,ICU Care,Yes,Insurance,Private,Dr. John
+553,2023-01-21,2023-01-27,Hypertension,Cardiology,1261,50,Female,Medium,Surgery,No,Cash,Private,Dr. John
+554,2023-06-07,2023-06-16,Covid,ICU,15465,86,Male,Medium,Surgery,No,Cash,ICU,Dr. Lee
+555,2023-08-31,2023-09-05,Diabetes,Cardiology,5701,17,Female,High,Surgery,Yes,Insurance,General,Dr. Smith
+556,2023-11-17,2023-11-23,Fever,Surgery,23104,65,Female,Medium,Surgery,Yes,Insurance,ICU,Dr. Lee
+557,2023-10-28,2023-10-29,Fever,Cardiology,3683,31,Male,Low,Medication,No,Cash,ICU,Dr. Lee
+558,2023-02-18,2023-02-21,Flu,Surgery,23696,1,Female,Medium,Surgery,No,Cash,Private,Dr. Kumar
+559,2023-11-09,2023-11-19,Hypertension,Surgery,12598,72,Female,High,Surgery,Yes,Insurance,General,Dr. Lee
+560,2023-03-21,2023-03-24,Flu,General,5908,69,Female,Low,Surgery,No,Cash,ICU,Dr. Lee
+561,2023-03-09,2023-03-19,Covid,Cardiology,5368,5,Male,Low,Medication,No,Cash,General,Dr. Lee
+562,2023-04-26,2023-05-03,Infection,General,2170,86,Male,High,Medication,Yes,Insurance,ICU,Dr. Kumar
+563,2023-11-08,2023-11-17,Fever,Cardiology,5757,21,Male,Medium,Surgery,No,Cash,ICU,Dr. Lee
+564,2023-05-31,2023-06-09,Covid,General,4571,87,Female,Medium,ICU Care,Yes,Insurance,ICU,Dr. John
+565,2023-05-19,2023-05-25,Infection,General,4831,39,Female,Medium,Surgery,No,Cash,Private,Dr. John
+566,2023-01-16,2023-01-21,Hypertension,ICU,11108,66,Male,Medium,ICU Care,Yes,Insurance,Private,Dr. Lee
+567,2023-09-04,2023-09-06,Hypertension,ICU,12207,51,Male,Low,Medication,No,Cash,General,Dr. Smith
+568,2023-09-06,2023-09-11,Covid,Cardiology,4307,19,Male,Medium,ICU Care,Yes,Insurance,General,Dr. John
+569,2023-06-12,2023-06-15,Covid,Surgery,16923,47,Male,Low,Surgery,Yes,Insurance,General,Dr. Kumar
+570,2023-02-05,2023-02-08,Fever,Cardiology,3783,62,Male,Low,ICU Care,Yes,Insurance,ICU,Dr. Lee
+571,2023-06-19,2023-06-25,Covid,ICU,18022,78,Female,Medium,Surgery,No,Cash,Private,Dr. John
+572,2023-12-05,2023-12-15,Covid,General,3933,1,Male,Medium,Medication,Yes,Insurance,Private,Dr. Smith
+573,2023-03-10,2023-03-11,Covid,Cardiology,5104,35,Female,High,Medication,No,Cash,ICU,Dr. Lee
+574,2023-10-06,2023-10-16,Covid,Emergency,1452,37,Male,Low,Surgery,Yes,Insurance,ICU,Dr. John
+575,2023-08-11,2023-08-18,Diabetes,Cardiology,3611,39,Female,Medium,Surgery,No,Cash,General,Dr. John
+576,2023-04-16,2023-04-24,Fever,Emergency,2241,16,Male,Low,Medication,No,Cash,Private,Dr. John
+577,2023-06-14,2023-06-15,Fever,Cardiology,5958,44,Female,Low,ICU Care,No,Cash,ICU,Dr. Lee
+578,2023-04-26,2023-04-27,Infection,Emergency,5156,61,Male,Medium,Surgery,No,Cash,General,Dr. Smith
+579,2023-01-12,2023-01-16,Infection,Surgery,13826,65,Male,High,Surgery,No,Cash,General,Dr. Lee
+580,2023-08-23,2023-08-28,Flu,Emergency,3186,49,Male,Low,Medication,Yes,Insurance,Private,Dr. John
+581,2023-01-04,2023-01-05,Covid,Surgery,11470,8,Female,Medium,ICU Care,Yes,Insurance,Private,Dr. John
+582,2023-06-06,2023-06-13,Hypertension,General,1477,7,Female,High,Surgery,Yes,Insurance,General,Dr. Smith
+583,2023-05-23,2023-05-24,Infection,Emergency,5492,43,Female,Medium,Medication,Yes,Insurance,Private,Dr. Smith
+584,2023-07-07,2023-07-10,Covid,Surgery,22524,51,Female,Medium,Surgery,No,Cash,ICU,Dr. John
+585,2023-12-02,2023-12-04,Diabetes,Emergency,5675,16,Male,High,Medication,No,Cash,ICU,Dr. Smith
+586,2023-01-19,2023-01-23,Covid,Emergency,5291,22,Male,Low,Surgery,No,Cash,ICU,Dr. John
+587,2023-08-08,2023-08-09,Covid,Surgery,11919,84,Female,Medium,Medication,No,Cash,ICU,Dr. Lee
+588,2023-01-29,2023-02-01,Covid,Surgery,17567,60,Male,Low,Medication,No,Cash,ICU,Dr. Kumar
+589,2023-03-15,2023-03-19,Fever,Cardiology,4813,49,Male,Medium,Surgery,No,Cash,General,Dr. John
+590,2023-11-17,2023-11-27,Covid,Cardiology,5875,67,Female,Low,Surgery,Yes,Insurance,ICU,Dr. Lee
+591,2023-03-06,2023-03-07,Covid,Surgery,20408,73,Female,Low,Surgery,No,Cash,ICU,Dr. John
+592,2023-08-09,2023-08-18,Infection,Emergency,1674,37,Male,High,Surgery,No,Cash,ICU,Dr. Kumar
+593,2023-07-11,2023-07-21,Infection,ICU,12154,53,Female,Medium,Surgery,No,Cash,General,Dr. Lee
+594,2023-10-05,2023-10-10,Diabetes,General,5358,19,Male,Medium,Medication,Yes,Insurance,General,Dr. Smith
+595,2023-02-08,2023-02-10,Fever,Cardiology,2260,19,Male,High,ICU Care,No,Cash,ICU,Dr. Smith
+596,2023-08-27,2023-08-28,Fever,Surgery,14531,74,Male,Medium,Medication,Yes,Insurance,General,Dr. Smith
+597,2023-05-27,2023-06-03,Fever,ICU,8730,78,Male,High,Surgery,Yes,Insurance,General,Dr. John
+598,2023-08-18,2023-08-19,Diabetes,Emergency,5829,28,Female,Low,ICU Care,Yes,Insurance,ICU,Dr. Kumar
+599,2023-02-05,2023-02-10,Fever,Cardiology,2699,14,Female,Medium,Surgery,No,Cash,General,Dr. Lee
+600,2023-06-17,2023-06-27,Covid,Surgery,11428,50,Male,Medium,Surgery,Yes,Insurance,General,Dr. John
+601,2023-04-06,2023-04-08,Covid,Surgery,20928,61,Male,Medium,ICU Care,No,Cash,Private,Dr. Smith
+602,2023-10-10,2023-10-19,Hypertension,Cardiology,1690,26,Female,Low,Surgery,No,Cash,ICU,Dr. Kumar
+603,2023-07-12,2023-07-16,Hypertension,General,2889,24,Female,Medium,ICU Care,No,Cash,Private,Dr. Smith
+604,2023-04-28,2023-05-06,Flu,Surgery,11588,41,Female,Medium,Medication,Yes,Insurance,ICU,Dr. John
+605,2023-09-01,2023-09-09,Infection,Emergency,5190,17,Male,Medium,Medication,No,Cash,ICU,Dr. Lee
+606,2023-04-17,2023-04-25,Hypertension,Cardiology,5057,87,Male,Low,Surgery,Yes,Insurance,Private,Dr. Smith
+607,2023-06-20,2023-06-30,Flu,Cardiology,1474,38,Male,High,Surgery,Yes,Insurance,Private,Dr. Smith
+608,2023-09-24,2023-09-29,Infection,Surgery,21488,15,Female,Medium,ICU Care,Yes,Insurance,Private,Dr. Lee
+609,2023-04-07,2023-04-11,Diabetes,ICU,10318,33,Male,Low,Surgery,Yes,Insurance,ICU,Dr. John
+610,2023-05-02,2023-05-08,Covid,Cardiology,4249,38,Male,Medium,Medication,Yes,Insurance,Private,Dr. Smith
+611,2023-04-11,2023-04-16,Flu,General,5866,65,Male,Low,ICU Care,No,Cash,Private,Dr. Lee
+612,2023-11-02,2023-11-09,Flu,General,2794,77,Male,Low,ICU Care,Yes,Insurance,ICU,Dr. John
+613,2023-10-10,2023-10-16,Diabetes,Cardiology,2839,69,Female,High,ICU Care,No,Cash,General,Dr. Smith
+614,2023-06-08,2023-06-16,Hypertension,ICU,8588,20,Female,Medium,ICU Care,No,Cash,General,Dr. Kumar
+615,2023-08-11,2023-08-19,Infection,Emergency,1977,49,Male,Low,ICU Care,Yes,Insurance,Private,Dr. John
+616,2023-09-26,2023-10-02,Diabetes,ICU,13882,44,Female,Medium,Surgery,Yes,Insurance,Private,Dr. Smith
+617,2023-09-29,2023-10-09,Infection,Cardiology,3111,50,Male,Medium,ICU Care,No,Cash,General,Dr. Smith
+618,2023-05-15,2023-05-24,Diabetes,General,3522,34,Female,Low,ICU Care,No,Cash,Private,Dr. Lee
+619,2023-10-25,2023-10-26,Flu,General,2679,78,Female,Low,Medication,No,Cash,Private,Dr. Kumar
+620,2023-01-18,2023-01-26,Covid,ICU,11567,74,Female,Low,ICU Care,No,Cash,Private,Dr. John
+621,2023-05-06,2023-05-11,Flu,Emergency,1397,72,Male,High,Medication,No,Cash,Private,Dr. John
+622,2023-02-21,2023-02-26,Diabetes,General,2190,62,Female,Low,ICU Care,Yes,Insurance,ICU,Dr. John
+623,2023-02-11,2023-02-21,Infection,Surgery,21613,1,Female,High,Surgery,No,Cash,General,Dr. Kumar
+624,2023-07-29,2023-08-06,Hypertension,ICU,18566,41,Female,Medium,Surgery,Yes,Insurance,General,Dr. Kumar
+625,2023-12-31,2024-01-09,Infection,Emergency,5693,49,Male,Low,ICU Care,Yes,Insurance,ICU,Dr. Kumar
+626,2023-06-27,2023-06-30,Hypertension,ICU,19175,76,Female,Medium,ICU Care,Yes,Insurance,Private,Dr. Kumar
+627,2023-05-04,2023-05-05,Flu,Surgery,19501,10,Male,High,Medication,Yes,Insurance,Private,Dr. Lee
+628,2023-05-06,2023-05-13,Fever,Emergency,3152,13,Male,Low,Surgery,No,Cash,Private,Dr. Kumar
+629,2023-09-01,2023-09-02,Infection,Cardiology,3390,17,Female,High,Medication,Yes,Insurance,Private,Dr. Kumar
+630,2023-01-09,2023-01-15,Fever,Emergency,4706,35,Female,High,Medication,No,Cash,Private,Dr. Smith
+631,2023-02-11,2023-02-18,Infection,General,1052,18,Male,Medium,Medication,No,Cash,Private,Dr. Smith
+632,2023-12-08,2023-12-09,Hypertension,ICU,18211,72,Female,Low,Medication,Yes,Insurance,General,Dr. Kumar
+633,2023-12-14,2023-12-18,Fever,General,1524,3,Male,Low,Medication,Yes,Insurance,General,Dr. Smith
+634,2023-05-15,2023-05-25,Diabetes,Emergency,1989,61,Male,High,Surgery,No,Cash,Private,Dr. Lee
+635,2023-12-22,2023-12-26,Flu,Surgery,15295,23,Male,High,ICU Care,No,Cash,ICU,Dr. Lee
+636,2023-08-13,2023-08-22,Diabetes,ICU,8879,50,Male,Low,Surgery,No,Cash,Private,Dr. John
+637,2023-12-28,2024-01-07,Covid,Cardiology,5896,21,Female,Low,Surgery,Yes,Insurance,Private,Dr. Lee
+638,2023-09-17,2023-09-26,Covid,Emergency,3244,89,Female,High,ICU Care,Yes,Insurance,Private,Dr. Lee
+639,2023-01-11,2023-01-20,Hypertension,Cardiology,1852,9,Female,Low,Medication,No,Cash,ICU,Dr. Lee
+640,2023-04-14,2023-04-16,Infection,Cardiology,5344,53,Male,Low,ICU Care,Yes,Insurance,General,Dr. Lee
+641,2023-04-16,2023-04-24,Hypertension,ICU,11433,31,Female,Low,Medication,Yes,Insurance,General,Dr. John
+642,2023-07-21,2023-07-30,Covid,Surgery,14263,65,Female,Medium,ICU Care,No,Cash,Private,Dr. John
+643,2023-12-30,2023-12-31,Infection,ICU,9525,44,Female,High,ICU Care,No,Cash,ICU,Dr. Kumar
+644,2023-05-09,2023-05-18,Diabetes,Surgery,11311,33,Female,Medium,Surgery,Yes,Insurance,General,Dr. Lee
+645,2023-05-08,2023-05-11,Fever,Cardiology,4369,53,Female,Medium,Surgery,Yes,Insurance,Private,Dr. Smith
+646,2023-11-11,2023-11-17,Flu,Emergency,5434,90,Male,Low,ICU Care,No,Cash,ICU,Dr. John
+647,2023-06-11,2023-06-12,Diabetes,Cardiology,2733,80,Female,High,Medication,Yes,Insurance,ICU,Dr. John
+648,2023-10-27,2023-11-04,Infection,Emergency,1951,78,Female,Medium,Surgery,No,Cash,ICU,Dr. John
+649,2023-04-10,2023-04-13,Flu,Cardiology,2087,9,Female,Medium,Surgery,Yes,Insurance,General,Dr. Lee
+650,2023-01-03,2023-01-07,Fever,Cardiology,2690,21,Male,Medium,ICU Care,No,Cash,General,Dr. John
+651,2023-08-29,2023-09-05,Diabetes,Surgery,21390,40,Male,Medium,Medication,Yes,Insurance,Private,Dr. Lee
+652,2023-07-28,2023-07-29,Fever,Emergency,2445,48,Male,Low,ICU Care,No,Cash,ICU,Dr. Lee
+653,2023-07-13,2023-07-20,Diabetes,Emergency,2183,12,Female,Low,ICU Care,Yes,Insurance,ICU,Dr. John
+654,2023-01-25,2023-01-29,Infection,ICU,11274,64,Female,High,ICU Care,No,Cash,Private,Dr. Lee
+655,2023-10-23,2023-10-24,Infection,Emergency,4697,52,Female,Medium,Surgery,Yes,Insurance,Private,Dr. Smith
+656,2023-02-13,2023-02-14,Covid,ICU,12804,46,Male,Medium,ICU Care,Yes,Insurance,General,Dr. Lee
+657,2023-12-01,2023-12-02,Infection,Emergency,3344,59,Female,High,Surgery,Yes,Insurance,General,Dr. Kumar
+658,2023-03-21,2023-03-27,Diabetes,Emergency,2446,39,Male,Medium,Surgery,Yes,Insurance,ICU,Dr. Lee
+659,2023-03-23,2023-04-02,Fever,General,5792,63,Male,Low,Surgery,Yes,Insurance,ICU,Dr. John
+660,2023-10-06,2023-10-11,Fever,Emergency,5424,76,Male,Medium,ICU Care,Yes,Insurance,ICU,Dr. Lee
+661,2023-06-22,2023-07-02,Flu,General,3944,27,Female,Low,ICU Care,Yes,Insurance,Private,Dr. John
+662,2023-10-26,2023-10-28,Covid,Surgery,17473,22,Female,High,ICU Care,Yes,Insurance,ICU,Dr. Kumar
+663,2023-07-02,2023-07-10,Infection,General,2148,87,Female,High,Surgery,No,Cash,ICU,Dr. Lee
+664,2023-12-23,2023-12-26,Diabetes,General,1605,68,Male,High,ICU Care,Yes,Insurance,Private,Dr. John
+665,2023-09-23,2023-10-01,Hypertension,Emergency,3033,44,Male,High,Medication,Yes,Insurance,General,Dr. John
+666,2023-10-26,2023-11-05,Flu,Emergency,1170,23,Male,Low,ICU Care,No,Cash,Private,Dr. Kumar
+667,2023-02-23,2023-02-24,Infection,Surgery,17529,15,Male,Low,Surgery,No,Cash,Private,Dr. Kumar
+668,2023-07-24,2023-07-29,Diabetes,General,2312,34,Male,High,Medication,No,Cash,ICU,Dr. Lee
+669,2023-04-21,2023-04-28,Hypertension,ICU,15213,41,Male,Low,Medication,Yes,Insurance,ICU,Dr. Smith
+670,2023-12-13,2023-12-16,Covid,Emergency,3301,70,Male,High,Surgery,No,Cash,ICU,Dr. John
+671,2023-03-25,2023-03-26,Covid,Cardiology,3125,21,Male,Low,Medication,No,Cash,General,Dr. John
+672,2023-01-22,2023-01-30,Hypertension,General,1865,39,Male,Low,Surgery,No,Cash,ICU,Dr. Lee
+673,2023-11-02,2023-11-12,Fever,Emergency,1150,79,Female,High,ICU Care,No,Cash,ICU,Dr. Lee
+674,2023-07-10,2023-07-17,Infection,General,2691,1,Male,Low,Medication,Yes,Insurance,ICU,Dr. John
+675,2023-03-13,2023-03-22,Covid,ICU,16176,75,Female,High,ICU Care,Yes,Insurance,ICU,Dr. John
+676,2023-07-20,2023-07-26,Diabetes,Emergency,3215,60,Male,Medium,Surgery,Yes,Insurance,Private,Dr. Smith
+677,2023-09-23,2023-09-29,Diabetes,Surgery,10218,42,Female,Low,Medication,No,Cash,Private,Dr. Lee
+678,2023-11-21,2023-11-28,Diabetes,Surgery,11364,36,Female,High,Surgery,No,Cash,General,Dr. Lee
+679,2023-07-15,2023-07-18,Diabetes,Surgery,14951,60,Female,Low,ICU Care,No,Cash,Private,Dr. Lee
+680,2023-04-11,2023-04-14,Fever,General,2457,72,Male,High,ICU Care,No,Cash,ICU,Dr. John
+681,2023-01-28,2023-02-07,Infection,ICU,10773,38,Female,Medium,ICU Care,No,Cash,Private,Dr. Smith
+682,2023-02-12,2023-02-16,Fever,ICU,11997,90,Male,Low,ICU Care,Yes,Insurance,General,Dr. Kumar
+683,2023-05-01,2023-05-08,Fever,ICU,10142,48,Female,Low,ICU Care,No,Cash,Private,Dr. Kumar
+684,2023-12-31,2024-01-04,Fever,ICU,11207,37,Female,Low,Medication,No,Cash,ICU,Dr. Kumar
+685,2023-10-31,2023-11-10,Fever,Emergency,4413,12,Male,High,Medication,No,Cash,Private,Dr. Lee
+686,2023-06-29,2023-07-01,Infection,General,5882,25,Female,High,ICU Care,No,Cash,General,Dr. Kumar
+687,2023-10-07,2023-10-16,Fever,ICU,8178,61,Female,Medium,Surgery,No,Cash,General,Dr. Smith
+688,2023-05-21,2023-05-22,Fever,Surgery,13721,37,Female,Low,Surgery,No,Cash,Private,Dr. Smith
+689,2023-01-07,2023-01-15,Covid,Emergency,3055,3,Male,Low,Medication,No,Cash,General,Dr. Lee
+690,2023-06-10,2023-06-17,Fever,General,3956,82,Male,Medium,Medication,Yes,Insurance,General,Dr. Kumar
+691,2023-01-30,2023-02-07,Hypertension,Emergency,5812,3,Male,High,ICU Care,No,Cash,Private,Dr. Lee
+692,2023-07-17,2023-07-19,Diabetes,ICU,8400,42,Male,Medium,Surgery,Yes,Insurance,General,Dr. John
+693,2023-04-20,2023-04-21,Flu,General,2410,69,Male,Low,Medication,Yes,Insurance,ICU,Dr. John
+694,2023-12-01,2023-12-03,Hypertension,ICU,8711,19,Female,Medium,ICU Care,Yes,Insurance,ICU,Dr. John
+695,2023-10-21,2023-10-27,Fever,Surgery,15857,56,Male,Low,Surgery,No,Cash,ICU,Dr. Lee
+696,2023-09-14,2023-09-23,Hypertension,ICU,17320,8,Female,Medium,Medication,Yes,Insurance,General,Dr. Kumar
+697,2023-01-09,2023-01-15,Flu,Cardiology,1970,69,Female,Medium,Surgery,Yes,Insurance,Private,Dr. Kumar
+698,2023-07-18,2023-07-27,Flu,Cardiology,2430,2,Female,Medium,Medication,Yes,Insurance,ICU,Dr. Lee
+699,2023-01-03,2023-01-06,Flu,ICU,9255,65,Female,High,Medication,No,Cash,Private,Dr. John
+700,2023-08-19,2023-08-22,Flu,General,2044,67,Female,Low,Medication,Yes,Insurance,General,Dr. John
+701,2023-05-07,2023-05-09,Hypertension,Emergency,4153,15,Female,Low,Medication,No,Cash,ICU,Dr. Lee
+702,2023-05-18,2023-05-19,Infection,Cardiology,5806,25,Male,High,ICU Care,Yes,Insurance,General,Dr. Smith
+703,2023-07-24,2023-07-28,Hypertension,ICU,10694,9,Female,Low,Surgery,Yes,Insurance,Private,Dr. Kumar
+704,2023-03-24,2023-03-25,Hypertension,ICU,16567,11,Female,Low,Surgery,No,Cash,ICU,Dr. Smith
+705,2023-12-20,2023-12-23,Flu,General,3417,51,Male,Low,Medication,No,Cash,Private,Dr. Kumar
+706,2023-07-30,2023-08-01,Diabetes,Cardiology,4365,64,Female,High,Medication,Yes,Insurance,Private,Dr. Smith
+707,2023-04-15,2023-04-16,Fever,Surgery,20344,76,Female,High,ICU Care,No,Cash,ICU,Dr. Smith
+708,2023-03-15,2023-03-22,Covid,Surgery,17011,46,Female,Low,Surgery,No,Cash,General,Dr. Smith
+709,2023-12-12,2023-12-22,Fever,Cardiology,2848,28,Male,Medium,Medication,Yes,Insurance,General,Dr. Lee
+710,2023-12-05,2023-12-07,Infection,General,5239,85,Male,Low,Surgery,Yes,Insurance,Private,Dr. Smith
+711,2023-06-27,2023-07-07,Fever,ICU,9599,39,Male,Low,ICU Care,No,Cash,Private,Dr. Smith
+712,2023-05-12,2023-05-22,Fever,ICU,16931,69,Male,High,Medication,Yes,Insurance,ICU,Dr. John
+713,2023-04-04,2023-04-12,Covid,Surgery,20383,10,Female,Medium,ICU Care,No,Cash,ICU,Dr. Smith
+714,2023-10-12,2023-10-18,Diabetes,ICU,15970,64,Female,High,Medication,No,Cash,Private,Dr. Kumar
+715,2023-03-16,2023-03-22,Flu,Cardiology,2122,65,Male,Low,Medication,Yes,Insurance,General,Dr. Smith
+716,2023-06-06,2023-06-10,Flu,Emergency,2043,54,Male,Low,Medication,Yes,Insurance,Private,Dr. Kumar
+717,2023-03-03,2023-03-12,Fever,ICU,11507,86,Female,High,Medication,Yes,Insurance,ICU,Dr. Lee
+718,2023-04-21,2023-05-01,Diabetes,Cardiology,1519,65,Male,High,ICU Care,Yes,Insurance,General,Dr. John
+719,2023-11-05,2023-11-13,Infection,Surgery,22360,88,Female,Low,ICU Care,Yes,Insurance,General,Dr. Lee
+720,2023-02-04,2023-02-08,Covid,Cardiology,5996,7,Male,High,ICU Care,No,Cash,Private,Dr. Lee
+721,2023-01-24,2023-01-25,Infection,Cardiology,3605,70,Male,Medium,ICU Care,Yes,Insurance,ICU,Dr. Smith
+722,2023-12-06,2023-12-12,Infection,General,5893,70,Male,High,ICU Care,Yes,Insurance,General,Dr. John
+723,2023-08-07,2023-08-11,Flu,ICU,8851,22,Male,High,Medication,Yes,Insurance,ICU,Dr. Smith
+724,2023-10-28,2023-11-02,Flu,Cardiology,2105,38,Male,Medium,Surgery,No,Cash,ICU,Dr. Kumar
+725,2023-01-12,2023-01-20,Covid,General,3600,7,Female,High,Surgery,No,Cash,General,Dr. John
+726,2023-07-11,2023-07-12,Hypertension,Surgery,15493,90,Female,Low,Medication,No,Cash,General,Dr. John
+727,2023-07-18,2023-07-24,Infection,Emergency,4948,76,Male,High,Medication,Yes,Insurance,ICU,Dr. John
+728,2023-07-02,2023-07-09,Diabetes,Cardiology,2600,49,Male,Medium,Surgery,No,Cash,General,Dr. Kumar
+729,2023-07-29,2023-08-07,Diabetes,Emergency,1892,9,Male,Medium,Surgery,No,Cash,Private,Dr. Lee
+730,2023-04-21,2023-04-26,Infection,Cardiology,3182,79,Male,Medium,ICU Care,No,Cash,General,Dr. Kumar
+731,2023-04-12,2023-04-19,Hypertension,Surgery,15498,85,Male,Low,Medication,No,Cash,Private,Dr. Smith
+732,2023-10-04,2023-10-08,Covid,Surgery,11511,52,Female,Medium,Medication,No,Cash,General,Dr. Kumar
+733,2023-04-28,2023-05-02,Infection,Surgery,14793,50,Female,Medium,ICU Care,No,Cash,General,Dr. John
+734,2023-09-20,2023-09-25,Hypertension,Cardiology,5415,81,Male,Low,ICU Care,No,Cash,ICU,Dr. Kumar
+735,2023-02-26,2023-03-07,Fever,ICU,13678,56,Male,Medium,Medication,Yes,Insurance,General,Dr. Lee
+736,2023-08-04,2023-08-08,Fever,Emergency,1931,23,Male,Low,Surgery,Yes,Insurance,ICU,Dr. Smith
+737,2023-04-19,2023-04-27,Fever,Cardiology,1927,46,Female,Medium,ICU Care,No,Cash,ICU,Dr. Kumar
+738,2023-06-19,2023-06-23,Infection,ICU,13674,4,Male,High,Medication,Yes,Insurance,ICU,Dr. John
+739,2023-03-20,2023-03-28,Infection,Cardiology,5414,30,Male,Medium,Surgery,Yes,Insurance,General,Dr. Smith
+740,2023-01-11,2023-01-21,Covid,Emergency,5474,51,Male,High,Medication,No,Cash,Private,Dr. Lee
+741,2023-03-10,2023-03-17,Fever,Cardiology,2789,31,Male,Medium,ICU Care,Yes,Insurance,General,Dr. John
+742,2023-08-28,2023-08-29,Hypertension,General,1283,61,Female,High,Surgery,No,Cash,General,Dr. Smith
+743,2023-11-09,2023-11-18,Infection,Emergency,1651,27,Female,Medium,Medication,No,Cash,General,Dr. Smith
+744,2023-02-11,2023-02-16,Flu,General,3507,45,Female,Medium,ICU Care,No,Cash,General,Dr. Smith
+745,2023-01-25,2023-01-26,Diabetes,Surgery,22781,87,Male,High,Medication,Yes,Insurance,Private,Dr. Kumar
+746,2023-09-29,2023-10-08,Covid,Emergency,3150,20,Male,Low,Medication,Yes,Insurance,ICU,Dr. John
+747,2023-01-15,2023-01-25,Diabetes,Emergency,2057,75,Male,Low,Medication,Yes,Insurance,ICU,Dr. John
+748,2023-11-02,2023-11-10,Hypertension,Surgery,23881,20,Female,Low,Surgery,No,Cash,General,Dr. Kumar
+749,2023-02-15,2023-02-19,Diabetes,General,5792,58,Female,Low,Medication,Yes,Insurance,Private,Dr. Kumar
+750,2023-04-11,2023-04-13,Covid,Emergency,1212,81,Female,Medium,Surgery,No,Cash,General,Dr. Kumar
+751,2023-05-15,2023-05-21,Fever,Emergency,5286,16,Male,High,ICU Care,Yes,Insurance,Private,Dr. Lee
+752,2023-05-30,2023-06-08,Fever,Emergency,1308,30,Female,Medium,Surgery,Yes,Insurance,ICU,Dr. Kumar
+753,2023-06-02,2023-06-04,Flu,Surgery,23096,69,Male,High,ICU Care,No,Cash,ICU,Dr. Smith
+754,2023-10-31,2023-11-05,Diabetes,Cardiology,2326,9,Female,Medium,Medication,Yes,Insurance,Private,Dr. John
+755,2023-10-13,2023-10-18,Flu,Cardiology,3398,48,Female,Medium,Surgery,No,Cash,Private,Dr. Smith
+756,2023-01-02,2023-01-11,Infection,ICU,15848,5,Male,Low,Surgery,Yes,Insurance,General,Dr. Lee
+757,2023-10-27,2023-10-31,Diabetes,Cardiology,5770,23,Female,Medium,Surgery,Yes,Insurance,Private,Dr. John
+758,2023-10-28,2023-11-04,Flu,General,2624,74,Male,Medium,Medication,Yes,Insurance,ICU,Dr. John
+759,2023-03-06,2023-03-11,Flu,General,2279,81,Male,High,ICU Care,Yes,Insurance,Private,Dr. Lee
+760,2023-03-06,2023-03-09,Flu,General,1248,52,Male,Medium,ICU Care,Yes,Insurance,ICU,Dr. Kumar
+761,2023-08-27,2023-08-29,Diabetes,Emergency,4463,41,Male,Medium,Medication,Yes,Insurance,General,Dr. Lee
+762,2023-11-05,2023-11-06,Flu,Surgery,15119,19,Female,Low,Medication,No,Cash,ICU,Dr. Lee
+763,2023-02-13,2023-02-23,Diabetes,ICU,10542,36,Female,High,ICU Care,No,Cash,Private,Dr. John
+764,2023-08-09,2023-08-13,Diabetes,Cardiology,5033,29,Female,Low,Medication,Yes,Insurance,Private,Dr. Kumar
+765,2023-11-19,2023-11-22,Fever,Cardiology,1342,48,Female,Medium,Surgery,Yes,Insurance,ICU,Dr. Smith
+766,2023-01-05,2023-01-07,Fever,Surgery,15047,75,Female,High,ICU Care,Yes,Insurance,ICU,Dr. Smith
+767,2023-03-24,2023-03-27,Infection,ICU,16887,9,Female,Low,Surgery,No,Cash,General,Dr. Lee
+768,2023-04-03,2023-04-12,Flu,Cardiology,2871,22,Male,Low,Surgery,No,Cash,Private,Dr. Lee
+769,2023-08-23,2023-08-24,Hypertension,General,3196,58,Male,Low,Medication,No,Cash,Private,Dr. Lee
+770,2023-08-24,2023-09-01,Fever,Cardiology,5019,12,Female,High,Medication,No,Cash,Private,Dr. Smith
+771,2023-09-02,2023-09-09,Infection,Emergency,5188,57,Female,High,ICU Care,No,Cash,General,Dr. Kumar
+772,2023-10-31,2023-11-10,Fever,General,1231,71,Female,Low,Medication,No,Cash,General,Dr. Kumar
+773,2023-07-12,2023-07-13,Covid,Emergency,5816,52,Male,Medium,ICU Care,Yes,Insurance,Private,Dr. Lee
+774,2023-09-01,2023-09-05,Fever,Emergency,5406,29,Male,Medium,Surgery,No,Cash,General,Dr. Lee
+775,2023-03-05,2023-03-10,Flu,General,4464,33,Male,Low,Surgery,Yes,Insurance,ICU,Dr. John
+776,2023-01-10,2023-01-19,Flu,ICU,18491,48,Male,Medium,Surgery,Yes,Insurance,Private,Dr. John
+777,2023-07-20,2023-07-23,Infection,ICU,14473,45,Female,Low,ICU Care,Yes,Insurance,Private,Dr. Lee
+778,2023-11-11,2023-11-16,Covid,ICU,14285,57,Female,High,Surgery,No,Cash,Private,Dr. Lee
+779,2023-08-10,2023-08-17,Diabetes,ICU,18203,36,Female,Low,Medication,No,Cash,ICU,Dr. John
+780,2023-09-30,2023-10-01,Flu,Cardiology,3468,26,Female,Medium,ICU Care,Yes,Insurance,ICU,Dr. Smith
+781,2023-12-04,2023-12-12,Fever,ICU,12522,52,Female,Medium,Surgery,No,Cash,General,Dr. Lee
+782,2023-08-02,2023-08-09,Hypertension,General,5607,12,Male,Medium,Surgery,No,Cash,General,Dr. Smith
+783,2023-06-25,2023-07-02,Covid,General,3333,16,Male,Low,Surgery,No,Cash,ICU,Dr. Kumar
+784,2023-07-14,2023-07-19,Covid,Cardiology,4266,7,Female,High,ICU Care,Yes,Insurance,ICU,Dr. Smith
+785,2023-03-08,2023-03-13,Infection,ICU,14554,81,Male,Medium,ICU Care,Yes,Insurance,ICU,Dr. John
+786,2023-11-01,2023-11-05,Infection,General,5035,67,Male,High,ICU Care,Yes,Insurance,Private,Dr. Kumar
+787,2023-04-04,2023-04-07,Covid,ICU,9554,34,Male,Medium,Surgery,Yes,Insurance,General,Dr. Smith
+788,2023-05-21,2023-05-23,Flu,Surgery,17865,43,Female,Low,Medication,Yes,Insurance,General,Dr. John
+789,2023-09-13,2023-09-15,Hypertension,Cardiology,2589,13,Female,Medium,Surgery,No,Cash,ICU,Dr. Lee
+790,2023-06-17,2023-06-23,Covid,Cardiology,3642,2,Female,High,ICU Care,Yes,Insurance,ICU,Dr. John
+791,2023-12-27,2023-12-29,Diabetes,General,4721,29,Male,Medium,ICU Care,Yes,Insurance,ICU,Dr. John
+792,2023-06-17,2023-06-23,Diabetes,General,1195,81,Male,Low,Surgery,Yes,Insurance,Private,Dr. John
+793,2023-02-01,2023-02-10,Flu,ICU,16510,76,Male,High,ICU Care,No,Cash,Private,Dr. Lee
+794,2023-08-27,2023-09-04,Diabetes,General,2364,86,Female,High,Surgery,Yes,Insurance,General,Dr. Lee
+795,2023-11-24,2023-12-01,Flu,Cardiology,2712,72,Female,Low,ICU Care,Yes,Insurance,Private,Dr. Kumar
+796,2023-04-24,2023-04-27,Diabetes,General,5497,51,Male,Medium,Surgery,No,Cash,General,Dr. Lee
+797,2023-06-17,2023-06-19,Hypertension,ICU,9953,45,Male,Low,Surgery,No,Cash,General,Dr. Lee
+798,2023-08-21,2023-08-31,Fever,Surgery,11177,44,Female,Medium,Medication,Yes,Insurance,General,Dr. Smith
+799,2023-11-21,2023-11-27,Covid,Emergency,4332,77,Female,High,Surgery,Yes,Insurance,Private,Dr. Lee
+800,2023-09-10,2023-09-17,Fever,Emergency,2847,70,Female,Medium,ICU Care,Yes,Insurance,ICU,Dr. Lee
+801,2023-04-10,2023-04-18,Hypertension,Cardiology,2670,62,Male,Medium,Medication,No,Cash,General,Dr. Smith
+802,2023-12-27,2024-01-02,Diabetes,ICU,10300,12,Male,High,Surgery,No,Cash,ICU,Dr. John
+803,2023-06-11,2023-06-19,Infection,General,3080,3,Male,High,ICU Care,Yes,Insurance,General,Dr. Smith
+804,2023-06-15,2023-06-16,Hypertension,General,4595,67,Female,Medium,ICU Care,Yes,Insurance,General,Dr. John
+805,2023-07-14,2023-07-21,Flu,Cardiology,1686,17,Female,High,Surgery,No,Cash,General,Dr. Lee
+806,2023-06-16,2023-06-26,Hypertension,Surgery,19728,14,Female,High,Medication,No,Cash,General,Dr. Lee
+807,2023-08-20,2023-08-21,Covid,Emergency,2095,64,Female,Medium,ICU Care,Yes,Insurance,General,Dr. Smith
+808,2023-10-10,2023-10-12,Flu,General,2244,53,Male,Medium,Surgery,No,Cash,Private,Dr. Lee
+809,2023-01-13,2023-01-18,Flu,General,2927,51,Male,Low,ICU Care,No,Cash,Private,Dr. Smith
+810,2023-12-06,2023-12-08,Covid,Cardiology,2189,27,Female,Low,Medication,No,Cash,Private,Dr. Kumar
+811,2023-09-07,2023-09-17,Diabetes,Surgery,20675,14,Female,Low,ICU Care,Yes,Insurance,General,Dr. John
+812,2023-07-13,2023-07-23,Infection,Emergency,1346,71,Female,Medium,Medication,Yes,Insurance,General,Dr. John
+813,2023-10-27,2023-11-01,Infection,Emergency,3190,27,Male,Low,Medication,No,Cash,ICU,Dr. John
+814,2023-05-07,2023-05-11,Flu,Surgery,19616,45,Female,Medium,Surgery,No,Cash,General,Dr. Kumar
+815,2023-03-26,2023-04-03,Covid,General,1415,68,Male,Medium,ICU Care,No,Cash,General,Dr. John
+816,2023-02-06,2023-02-13,Fever,ICU,15969,51,Female,Low,Surgery,Yes,Insurance,ICU,Dr. Lee
+817,2023-01-17,2023-01-21,Covid,Cardiology,2727,14,Male,Low,ICU Care,No,Cash,ICU,Dr. Lee
+818,2023-04-18,2023-04-22,Hypertension,Emergency,2634,53,Male,High,Surgery,No,Cash,General,Dr. Lee
+819,2023-08-27,2023-09-04,Hypertension,Cardiology,4002,78,Female,Low,Medication,No,Cash,General,Dr. John
+820,2023-03-18,2023-03-26,Covid,Emergency,4333,8,Female,Medium,Surgery,No,Cash,Private,Dr. Lee
+821,2023-07-26,2023-08-02,Hypertension,General,3302,47,Female,Low,ICU Care,Yes,Insurance,General,Dr. John
+822,2023-08-22,2023-08-25,Fever,Cardiology,2321,12,Female,Low,Surgery,Yes,Insurance,ICU,Dr. John
+823,2023-06-10,2023-06-18,Diabetes,ICU,14668,8,Female,Medium,ICU Care,Yes,Insurance,General,Dr. John
+824,2023-08-13,2023-08-21,Hypertension,General,4367,80,Female,Low,ICU Care,No,Cash,General,Dr. Kumar
+825,2023-11-22,2023-11-24,Hypertension,Emergency,5755,57,Female,High,Surgery,No,Cash,ICU,Dr. Lee
+826,2023-09-06,2023-09-16,Covid,Surgery,21384,69,Male,Low,ICU Care,Yes,Insurance,General,Dr. Kumar
+827,2023-08-08,2023-08-17,Covid,General,4386,30,Male,Medium,Medication,Yes,Insurance,General,Dr. Lee
+828,2023-02-28,2023-03-01,Hypertension,General,3233,87,Female,High,Surgery,No,Cash,General,Dr. John
+829,2023-06-12,2023-06-15,Flu,ICU,15243,2,Male,Medium,Medication,Yes,Insurance,Private,Dr. John
+830,2023-06-30,2023-07-05,Diabetes,General,2184,40,Female,High,Medication,Yes,Insurance,Private,Dr. Kumar
+831,2023-05-23,2023-05-28,Diabetes,Emergency,4800,81,Male,High,Surgery,Yes,Insurance,Private,Dr. Lee
+832,2023-01-18,2023-01-26,Diabetes,Surgery,15901,75,Female,Medium,Medication,Yes,Insurance,ICU,Dr. Lee
+833,2023-10-02,2023-10-09,Covid,Cardiology,2169,29,Female,Low,Surgery,No,Cash,ICU,Dr. Smith
+834,2023-03-16,2023-03-20,Diabetes,General,5824,84,Male,High,Surgery,No,Cash,ICU,Dr. Lee
+835,2023-01-08,2023-01-14,Flu,Cardiology,1389,14,Female,Low,Surgery,Yes,Insurance,Private,Dr. Lee
+836,2023-06-24,2023-06-29,Diabetes,Emergency,1432,19,Female,High,Surgery,Yes,Insurance,General,Dr. John
+837,2023-05-13,2023-05-22,Covid,Cardiology,4269,28,Female,High,Medication,Yes,Insurance,General,Dr. Lee
+838,2023-10-26,2023-11-01,Flu,ICU,19888,54,Male,Medium,ICU Care,No,Cash,Private,Dr. John
+839,2023-07-24,2023-07-26,Diabetes,Cardiology,4212,12,Female,Medium,Surgery,Yes,Insurance,Private,Dr. Lee
+840,2023-07-11,2023-07-16,Infection,Cardiology,5782,85,Female,Medium,Surgery,Yes,Insurance,Private,Dr. Kumar
+841,2023-01-19,2023-01-24,Diabetes,Emergency,5257,67,Female,Medium,ICU Care,Yes,Insurance,Private,Dr. Lee
+842,2023-04-30,2023-05-03,Hypertension,Cardiology,2420,15,Female,Low,Medication,No,Cash,Private,Dr. Kumar
+843,2023-01-23,2023-01-25,Infection,Surgery,20935,45,Female,Low,ICU Care,Yes,Insurance,ICU,Dr. Lee
+844,2023-08-07,2023-08-11,Diabetes,Surgery,12949,61,Male,Low,ICU Care,Yes,Insurance,ICU,Dr. Lee
+845,2023-09-28,2023-09-30,Diabetes,Surgery,20776,81,Female,Medium,ICU Care,Yes,Insurance,Private,Dr. John
+846,2023-09-21,2023-10-01,Infection,ICU,10085,31,Male,Low,Medication,No,Cash,General,Dr. Lee
+847,2023-08-19,2023-08-22,Fever,Surgery,20483,8,Male,High,Medication,Yes,Insurance,ICU,Dr. Lee
+848,2023-06-26,2023-07-03,Infection,ICU,8983,4,Female,High,ICU Care,No,Cash,Private,Dr. Smith
+849,2023-02-25,2023-03-04,Covid,Emergency,3107,12,Female,Medium,ICU Care,No,Cash,ICU,Dr. John
+850,2023-11-05,2023-11-13,Flu,Surgery,17426,69,Female,High,Medication,No,Cash,General,Dr. Smith
+851,2023-03-08,2023-03-12,Covid,ICU,10507,81,Female,Medium,Surgery,Yes,Insurance,Private,Dr. Lee
+852,2023-12-01,2023-12-03,Infection,General,5034,53,Female,Low,Surgery,No,Cash,Private,Dr. Lee
+853,2023-11-27,2023-12-01,Flu,Cardiology,2949,40,Female,Low,Surgery,Yes,Insurance,Private,Dr. John
+854,2023-11-12,2023-11-14,Covid,Emergency,3275,65,Female,High,Medication,No,Cash,ICU,Dr. John
+855,2023-12-25,2023-12-27,Diabetes,Cardiology,5615,42,Female,High,ICU Care,Yes,Insurance,ICU,Dr. Smith
+856,2023-03-18,2023-03-20,Hypertension,Emergency,2478,81,Male,Low,Surgery,No,Cash,General,Dr. Kumar
+857,2023-09-14,2023-09-20,Hypertension,Cardiology,4102,13,Male,High,ICU Care,Yes,Insurance,General,Dr. Kumar
+858,2023-06-18,2023-06-25,Covid,Emergency,2430,84,Female,Medium,Medication,No,Cash,Private,Dr. Lee
+859,2023-10-08,2023-10-17,Infection,Surgery,10292,55,Female,Medium,Surgery,Yes,Insurance,ICU,Dr. Kumar
+860,2023-05-05,2023-05-13,Flu,Surgery,20507,58,Male,Low,ICU Care,No,Cash,General,Dr. Lee
+861,2023-01-30,2023-02-08,Flu,Cardiology,4923,18,Female,Low,Medication,No,Cash,General,Dr. Kumar
+862,2023-08-19,2023-08-23,Covid,General,5124,75,Female,High,ICU Care,Yes,Insurance,ICU,Dr. Smith
+863,2023-12-10,2023-12-11,Infection,Emergency,4049,19,Male,Medium,Medication,Yes,Insurance,Private,Dr. John
+864,2023-04-01,2023-04-09,Flu,General,5306,43,Female,Medium,Surgery,No,Cash,ICU,Dr. Kumar
+865,2023-09-20,2023-09-27,Fever,ICU,18716,18,Male,High,Surgery,Yes,Insurance,General,Dr. Lee
+866,2023-08-17,2023-08-21,Hypertension,Surgery,21421,24,Female,High,Medication,No,Cash,Private,Dr. John
+867,2023-02-02,2023-02-08,Hypertension,General,1292,90,Female,Low,ICU Care,Yes,Insurance,ICU,Dr. John
+868,2023-04-17,2023-04-20,Infection,Cardiology,3719,21,Male,High,Medication,No,Cash,ICU,Dr. John
+869,2023-01-30,2023-02-07,Covid,General,2203,76,Female,Low,ICU Care,Yes,Insurance,ICU,Dr. John
+870,2023-08-11,2023-08-21,Diabetes,ICU,10633,41,Female,High,ICU Care,No,Cash,General,Dr. Smith
+871,2023-11-27,2023-12-03,Infection,Surgery,12507,70,Female,Low,Surgery,Yes,Insurance,General,Dr. Lee
+872,2023-08-18,2023-08-27,Hypertension,General,4532,43,Female,Low,ICU Care,No,Cash,General,Dr. Kumar
+873,2023-01-30,2023-02-04,Flu,General,1110,24,Male,High,Medication,No,Cash,ICU,Dr. Smith
+874,2023-06-14,2023-06-22,Fever,ICU,14656,55,Female,Low,Surgery,No,Cash,General,Dr. Lee
+875,2023-05-29,2023-06-06,Flu,General,5974,20,Female,Medium,ICU Care,Yes,Insurance,ICU,Dr. John
+876,2023-10-15,2023-10-22,Fever,Cardiology,2480,56,Male,Low,ICU Care,No,Cash,General,Dr. John
+877,2023-11-05,2023-11-09,Infection,Surgery,15091,35,Male,Low,Surgery,No,Cash,Private,Dr. Smith
+878,2023-11-05,2023-11-08,Covid,Cardiology,1012,20,Male,Medium,Medication,No,Cash,ICU,Dr. Kumar
+879,2023-12-07,2023-12-17,Infection,Emergency,4698,81,Female,Medium,Surgery,No,Cash,ICU,Dr. Smith
+880,2023-04-13,2023-04-14,Diabetes,Surgery,21048,7,Male,High,ICU Care,No,Cash,Private,Dr. Kumar
+881,2023-05-02,2023-05-12,Diabetes,General,2876,17,Female,High,ICU Care,No,Cash,ICU,Dr. John
+882,2023-05-22,2023-05-28,Fever,Surgery,10469,40,Male,High,Medication,No,Cash,General,Dr. John
+883,2023-04-16,2023-04-17,Covid,ICU,14768,20,Female,Medium,Medication,No,Cash,ICU,Dr. Lee
+884,2023-01-19,2023-01-28,Hypertension,Emergency,5201,62,Female,Low,ICU Care,Yes,Insurance,General,Dr. Lee
+885,2023-11-27,2023-12-01,Covid,General,3817,2,Female,Low,ICU Care,Yes,Insurance,General,Dr. Kumar
+886,2023-09-10,2023-09-20,Hypertension,General,4202,42,Male,High,Medication,Yes,Insurance,ICU,Dr. Kumar
+887,2023-07-05,2023-07-11,Infection,General,3902,80,Male,Medium,ICU Care,No,Cash,General,Dr. Smith
+888,2023-04-06,2023-04-16,Flu,Cardiology,1437,47,Female,Medium,Medication,Yes,Insurance,ICU,Dr. Kumar
+889,2023-08-12,2023-08-20,Diabetes,Cardiology,3899,55,Male,High,Surgery,Yes,Insurance,ICU,Dr. Lee
+890,2023-03-26,2023-03-30,Hypertension,General,5288,3,Female,High,ICU Care,No,Cash,Private,Dr. John
+891,2023-08-15,2023-08-17,Covid,General,2738,19,Male,Medium,ICU Care,Yes,Insurance,Private,Dr. Kumar
+892,2023-01-24,2023-01-25,Infection,Cardiology,3854,56,Female,Medium,Surgery,No,Cash,ICU,Dr. John
+893,2023-10-05,2023-10-10,Diabetes,General,5430,59,Female,Medium,Surgery,No,Cash,ICU,Dr. Smith
+894,2023-12-01,2023-12-10,Flu,Cardiology,1311,29,Female,Low,ICU Care,No,Cash,ICU,Dr. Kumar
+895,2023-08-17,2023-08-19,Fever,ICU,11934,60,Male,Low,Medication,No,Cash,Private,Dr. Kumar
+896,2023-11-30,2023-12-07,Fever,Surgery,22261,84,Male,Low,Medication,No,Cash,Private,Dr. Kumar
+897,2023-02-15,2023-02-18,Diabetes,ICU,12451,54,Female,High,Surgery,Yes,Insurance,ICU,Dr. Smith
+898,2023-12-19,2023-12-29,Diabetes,ICU,9011,47,Female,Medium,Surgery,Yes,Insurance,Private,Dr. Kumar
+899,2023-08-14,2023-08-23,Diabetes,Cardiology,1888,70,Male,Low,ICU Care,No,Cash,ICU,Dr. John
+900,2023-01-14,2023-01-20,Infection,Surgery,18608,89,Male,Low,ICU Care,No,Cash,ICU,Dr. Smith
+901,2023-05-09,2023-05-12,Hypertension,General,4174,62,Male,Low,ICU Care,No,Cash,General,Dr. Lee
+902,2023-05-21,2023-05-22,Covid,Cardiology,5978,53,Female,Medium,Surgery,No,Cash,Private,Dr. John
+903,2023-07-18,2023-07-28,Flu,Cardiology,2560,82,Female,High,Surgery,Yes,Insurance,General,Dr. Lee
+904,2023-09-06,2023-09-15,Flu,ICU,15930,9,Female,Medium,Medication,Yes,Insurance,Private,Dr. Smith
+905,2023-04-24,2023-04-27,Infection,Emergency,4737,65,Female,High,Surgery,Yes,Insurance,Private,Dr. Lee
+906,2023-03-28,2023-03-30,Flu,Emergency,1373,39,Male,Medium,Medication,Yes,Insurance,Private,Dr. Lee
+907,2023-06-17,2023-06-21,Diabetes,Surgery,17434,46,Male,Low,ICU Care,Yes,Insurance,Private,Dr. Kumar
+908,2023-05-19,2023-05-21,Diabetes,ICU,16425,32,Male,High,ICU Care,No,Cash,ICU,Dr. John
+909,2023-10-18,2023-10-23,Infection,ICU,19200,38,Male,Medium,Medication,Yes,Insurance,ICU,Dr. Lee
+910,2023-05-21,2023-05-25,Infection,Surgery,11648,12,Male,Low,Medication,Yes,Insurance,ICU,Dr. Lee
+911,2023-10-22,2023-10-26,Fever,General,3919,21,Female,Medium,ICU Care,Yes,Insurance,Private,Dr. Lee
+912,2023-02-11,2023-02-17,Diabetes,Cardiology,1891,13,Male,Medium,Surgery,Yes,Insurance,General,Dr. Smith
+913,2023-02-21,2023-02-22,Fever,Cardiology,5503,85,Male,Low,ICU Care,Yes,Insurance,Private,Dr. Kumar
+914,2023-05-09,2023-05-18,Fever,Cardiology,3049,80,Male,Medium,Medication,Yes,Insurance,Private,Dr. Kumar
+915,2023-04-16,2023-04-19,Flu,Surgery,21741,23,Female,High,Medication,Yes,Insurance,General,Dr. Smith
+916,2023-03-17,2023-03-27,Hypertension,Emergency,2234,87,Female,Medium,ICU Care,No,Cash,ICU,Dr. John
+917,2023-10-28,2023-11-05,Diabetes,Cardiology,1936,55,Male,High,Surgery,No,Cash,Private,Dr. John
+918,2023-10-13,2023-10-14,Fever,Cardiology,5509,12,Female,Medium,ICU Care,No,Cash,General,Dr. Lee
+919,2023-06-22,2023-06-23,Hypertension,Cardiology,5450,47,Male,Low,Surgery,Yes,Insurance,General,Dr. Kumar
+920,2023-02-08,2023-02-09,Flu,Surgery,22969,42,Male,Low,Surgery,Yes,Insurance,General,Dr. John
+921,2023-03-18,2023-03-26,Fever,Cardiology,3846,56,Male,Low,Surgery,No,Cash,ICU,Dr. Smith
+922,2023-07-23,2023-08-01,Fever,ICU,12219,86,Male,Low,Surgery,Yes,Insurance,ICU,Dr. John
+923,2023-06-09,2023-06-17,Diabetes,Emergency,4374,58,Female,High,Surgery,Yes,Insurance,Private,Dr. John
+924,2023-09-29,2023-09-30,Infection,Surgery,11557,12,Female,Low,Medication,No,Cash,ICU,Dr. Smith
+925,2023-06-05,2023-06-12,Infection,Surgery,17108,87,Female,Medium,Medication,No,Cash,Private,Dr. Smith
+926,2023-11-06,2023-11-15,Flu,Emergency,1360,86,Male,High,ICU Care,No,Cash,ICU,Dr. Lee
+927,2023-08-29,2023-08-31,Covid,ICU,9693,35,Male,Medium,Surgery,Yes,Insurance,General,Dr. John
+928,2023-01-09,2023-01-10,Diabetes,Emergency,1933,75,Male,Low,Medication,Yes,Insurance,Private,Dr. Kumar
+929,2023-08-25,2023-08-28,Flu,Emergency,3448,40,Male,High,ICU Care,No,Cash,Private,Dr. Kumar
+930,2023-07-01,2023-07-11,Infection,Surgery,10276,75,Male,Medium,Surgery,No,Cash,General,Dr. Kumar
+931,2023-03-21,2023-03-27,Diabetes,ICU,19877,66,Male,Low,Surgery,Yes,Insurance,General,Dr. John
+932,2023-09-21,2023-09-25,Fever,Emergency,4553,39,Female,High,ICU Care,Yes,Insurance,Private,Dr. Lee
+933,2023-04-02,2023-04-06,Flu,ICU,15364,26,Male,Medium,Medication,Yes,Insurance,General,Dr. Smith
+934,2023-03-13,2023-03-20,Hypertension,Surgery,15039,22,Male,Medium,Medication,Yes,Insurance,General,Dr. Kumar
+935,2023-04-08,2023-04-15,Infection,Surgery,20704,23,Female,Medium,Medication,No,Cash,Private,Dr. Smith
+936,2023-03-28,2023-03-30,Infection,Surgery,20611,86,Female,Low,Surgery,Yes,Insurance,Private,Dr. Smith
+937,2023-07-25,2023-07-30,Fever,General,3630,1,Female,Medium,Medication,No,Cash,ICU,Dr. Smith
+938,2023-03-14,2023-03-19,Fever,ICU,19126,64,Female,Low,Surgery,No,Cash,ICU,Dr. Lee
+939,2023-03-19,2023-03-23,Infection,General,1213,89,Male,Low,ICU Care,No,Cash,General,Dr. Lee
+940,2023-02-20,2023-02-27,Flu,Surgery,11361,33,Female,Low,ICU Care,Yes,Insurance,Private,Dr. John
+941,2023-09-17,2023-09-24,Infection,Emergency,5693,2,Female,High,ICU Care,No,Cash,General,Dr. Lee
+942,2023-09-24,2023-10-04,Fever,Emergency,5296,76,Male,Low,ICU Care,Yes,Insurance,ICU,Dr. Kumar
+943,2023-12-17,2023-12-18,Hypertension,Surgery,20915,56,Female,Low,Medication,Yes,Insurance,ICU,Dr. Smith
+944,2023-06-09,2023-06-13,Infection,ICU,11129,65,Female,High,Surgery,Yes,Insurance,General,Dr. John
+945,2023-05-29,2023-06-03,Flu,Surgery,18787,70,Male,Low,Medication,No,Cash,ICU,Dr. Kumar
+946,2023-09-30,2023-10-03,Flu,General,1035,75,Male,High,Surgery,No,Cash,ICU,Dr. John
+947,2023-09-26,2023-10-06,Covid,General,3354,57,Female,Medium,ICU Care,Yes,Insurance,Private,Dr. Lee
+948,2023-12-04,2023-12-07,Flu,Emergency,4748,35,Male,High,ICU Care,No,Cash,General,Dr. John
+949,2023-02-03,2023-02-05,Hypertension,Cardiology,1076,58,Female,Medium,Surgery,No,Cash,General,Dr. Lee
+950,2023-11-09,2023-11-12,Diabetes,ICU,13222,79,Male,High,Medication,No,Cash,ICU,Dr. Kumar
+951,2023-12-10,2023-12-16,Infection,Emergency,5804,31,Male,Low,Medication,Yes,Insurance,ICU,Dr. Kumar
+952,2023-04-07,2023-04-09,Infection,General,1358,83,Female,Low,Surgery,Yes,Insurance,ICU,Dr. Lee
+953,2023-09-02,2023-09-11,Covid,Surgery,23696,35,Female,Low,Medication,Yes,Insurance,Private,Dr. John
+954,2023-11-23,2023-12-03,Fever,Cardiology,2045,5,Female,Low,Medication,No,Cash,ICU,Dr. Lee
+955,2023-06-03,2023-06-05,Diabetes,ICU,12428,32,Male,Medium,Medication,Yes,Insurance,Private,Dr. John
+956,2023-10-24,2023-10-31,Hypertension,General,5704,90,Female,High,Surgery,No,Cash,ICU,Dr. John
+957,2023-02-05,2023-02-11,Fever,Emergency,5606,11,Male,Low,ICU Care,No,Cash,Private,Dr. Kumar
+958,2023-06-29,2023-07-01,Fever,Surgery,24095,47,Male,High,ICU Care,No,Cash,Private,Dr. John
+959,2023-12-14,2023-12-19,Hypertension,Emergency,2008,79,Female,Low,Surgery,No,Cash,General,Dr. John
+960,2023-08-02,2023-08-07,Diabetes,Emergency,1657,60,Male,Medium,ICU Care,No,Cash,General,Dr. John
+961,2023-12-20,2023-12-25,Infection,Emergency,3764,3,Female,High,Surgery,Yes,Insurance,General,Dr. Kumar
+962,2023-01-03,2023-01-10,Flu,ICU,8118,52,Female,Low,Medication,No,Cash,Private,Dr. Lee
+963,2023-11-05,2023-11-07,Infection,Surgery,22859,54,Male,Low,Medication,Yes,Insurance,General,Dr. John
+964,2023-05-14,2023-05-22,Hypertension,Cardiology,2670,48,Female,Medium,ICU Care,No,Cash,Private,Dr. John
+965,2023-03-13,2023-03-17,Covid,Surgery,13868,9,Female,High,Medication,No,Cash,General,Dr. Lee
+966,2023-11-17,2023-11-27,Flu,ICU,19781,53,Female,Medium,Medication,No,Cash,ICU,Dr. John
+967,2023-02-18,2023-02-21,Hypertension,Surgery,15814,40,Male,Low,ICU Care,Yes,Insurance,ICU,Dr. Kumar
+968,2023-02-23,2023-03-03,Infection,Cardiology,2865,14,Female,Medium,Surgery,No,Cash,ICU,Dr. Kumar
+969,2023-05-19,2023-05-26,Flu,ICU,19637,33,Female,High,Surgery,Yes,Insurance,Private,Dr. John
+970,2023-11-25,2023-12-03,Hypertension,Cardiology,5899,10,Female,Low,Surgery,No,Cash,ICU,Dr. Kumar
+971,2023-11-10,2023-11-14,Diabetes,General,5485,21,Male,High,ICU Care,Yes,Insurance,Private,Dr. Lee
+972,2023-05-24,2023-05-31,Diabetes,Surgery,24902,5,Male,Low,Medication,Yes,Insurance,Private,Dr. Kumar
+973,2023-12-04,2023-12-06,Covid,Surgery,11197,28,Female,High,Surgery,Yes,Insurance,ICU,Dr. Lee
+974,2023-10-29,2023-11-05,Infection,Emergency,2763,90,Male,Medium,Medication,No,Cash,ICU,Dr. Smith
+975,2023-07-06,2023-07-13,Diabetes,Surgery,11544,23,Male,High,Surgery,No,Cash,ICU,Dr. Lee
+976,2023-05-31,2023-06-02,Covid,General,2431,36,Male,Medium,Medication,No,Cash,ICU,Dr. Smith
+977,2023-12-08,2023-12-12,Diabetes,Surgery,14320,1,Male,High,ICU Care,No,Cash,Private,Dr. John
+978,2023-02-21,2023-02-28,Covid,Surgery,23134,18,Male,High,Surgery,No,Cash,General,Dr. John
+979,2023-01-01,2023-01-07,Infection,Surgery,10963,46,Female,Low,ICU Care,No,Cash,Private,Dr. Kumar
+980,2023-03-08,2023-03-17,Covid,Surgery,24717,61,Female,High,ICU Care,No,Cash,Private,Dr. Kumar
+981,2023-12-12,2023-12-17,Flu,Cardiology,1203,18,Male,Medium,Medication,Yes,Insurance,ICU,Dr. Kumar
+982,2023-12-25,2024-01-01,Diabetes,Emergency,1482,39,Male,Low,ICU Care,Yes,Insurance,Private,Dr. John
+983,2023-02-10,2023-02-14,Hypertension,ICU,10701,64,Male,Low,Surgery,Yes,Insurance,ICU,Dr. Smith
+984,2023-08-04,2023-08-05,Infection,ICU,11659,79,Female,High,Medication,No,Cash,Private,Dr. Lee
+985,2023-07-19,2023-07-20,Covid,ICU,8182,86,Female,High,Medication,No,Cash,ICU,Dr. John
+986,2023-11-25,2023-11-29,Hypertension,Cardiology,1716,7,Female,High,Surgery,Yes,Insurance,ICU,Dr. Kumar
+987,2023-05-15,2023-05-24,Covid,Emergency,1392,23,Female,Medium,Surgery,No,Cash,General,Dr. Smith
+988,2023-09-04,2023-09-12,Hypertension,Surgery,14797,72,Male,High,Medication,Yes,Insurance,Private,Dr. Kumar
+989,2023-01-19,2023-01-23,Fever,General,3033,90,Female,Medium,Surgery,No,Cash,ICU,Dr. Lee
+990,2023-02-03,2023-02-11,Infection,Emergency,3881,89,Male,Medium,Medication,Yes,Insurance,Private,Dr. Lee
+991,2023-01-03,2023-01-05,Hypertension,Cardiology,5122,20,Female,Low,ICU Care,Yes,Insurance,ICU,Dr. Smith
+992,2023-06-01,2023-06-07,Fever,General,5760,65,Female,Medium,Surgery,No,Cash,Private,Dr. Lee
+993,2023-02-16,2023-02-24,Diabetes,Cardiology,2203,51,Female,Low,Surgery,Yes,Insurance,Private,Dr. Lee
+994,2023-04-26,2023-05-01,Diabetes,General,4861,62,Female,Low,Surgery,No,Cash,Private,Dr. Smith
+995,2023-04-02,2023-04-09,Flu,Cardiology,4288,40,Female,High,Surgery,No,Cash,Private,Dr. Lee
+996,2023-12-27,2024-01-05,Hypertension,Surgery,20403,5,Male,Medium,Surgery,No,Cash,Private,Dr. Smith
+997,2023-02-14,2023-02-19,Flu,ICU,8225,85,Female,Medium,Surgery,Yes,Insurance,Private,Dr. Smith
+998,2023-04-20,2023-04-30,Hypertension,Emergency,3548,89,Male,High,Medication,Yes,Insurance,ICU,Dr. Smith
+999,2023-09-29,2023-10-05,Infection,General,3660,77,Female,Medium,Medication,Yes,Insurance,General,Dr. Smith
+1000,2023-05-25,2023-05-28,Infection,Cardiology,2709,74,Male,Low,Medication,Yes,Insurance,Private,Dr. John

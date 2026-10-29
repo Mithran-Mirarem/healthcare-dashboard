@@ -1,0 +1,20 @@
+# Python environment
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Local databases and temporary files
+*.db
+*.sqlite
+*.sqlite3
+.streamlit/
+
+# Editor files
+.vscode/
